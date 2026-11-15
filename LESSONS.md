@@ -4,6 +4,7 @@ Kanal: Meisterwerk (@meisterwerktv, Channel-ID UCscOIxeOlEDuGjAmtuxLFMw), deutsc
 Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Megaprojekte (Hochhäuser, Flugzeuge, Tunnel …) in 3D.
 
 ## Feste Regeln aus Laurins Feedback
+- **LÄNGE: JEDES Video MUSS über 8 Minuten lang sein (ganz wichtig, Laurin 15.11.2026).** Ziel 8:30–10:00. Skript ≥ 1.250 Wörter; vor dem Rendern die Summe der Sprachdauern + Pausen prüfen und bei Bedarf Kapitel ergänzen.
 - **Keine KI-Videoclips** (Higgsfield-Credits knapp). Alle bewegten Szenen in Blender (Cycles CPU). KI-Bilder (gpt_image_2_6, 0,25 Credits) sparsam für Stimmungsbilder/Geschichte erlaubt.
 - **Stimme**: Harrison (voice_id 573e5163-59b3-4926-aab1-951ef2985f81) mit `elevenlabs_v4` (Parameter `dialogue`, `prompt` als Platzhalter). NICHT text2speech_v2 – spricht Deutsch falsch aus. Zahlen/Jahre im Sprechtext ausschreiben („neunzehnhundertdreiundvierzig“), Abkürzungen lautschriftlich („Hundert-C-R-Sechs“, „F A G“). Kosten ≈ 1,15 Credits pro 210 Zeichen.
 - **Sounds**: Bei ALLEN Text-Einblendungen der Kamera-Klick (`shutter`; clink/mclick/tick/slap sind bereits auf shutter umgestellt). Daten/Orte als Tastatur-Typing (key0–7). Schläge (boom/stamp) bei Pressen/Stanzen, hiss beim Abschrecken. NIEMALS selbst synthetisierte Metall-/Surr-/Sirenen-Sounds.
@@ -15,7 +16,7 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 - **Hook**: überraschender Einstieg aus Geschichte/Alltag (Bomber 1943 → „Und das hier.“ → Kugel), dann Titelkarte.
 
 ## Produktion (Erfahrungswerte 15.11.2026)
-- Länge ~7 Min. (Intro 80 s + 5 Kapitel). Skript ~1000 Wörter.
+- 001 war nur 7:20 – zu kurz. Ab 002 mindestens 8:30 (Intro 80 s + 5–6 Kapitel, ~1.250–1.400 Wörter).
 - Blender: 960×540, 4–6 Samples + Denoiser ≈ 5–7 s/Frame auf 2 Kernen. Clips 72–192 Frames. ~900 Frames ≈ 1,5 h → im Hintergrund mit nohup rendern, Fortschritt pollen, NIE parallel zwei Blender-Prozesse.
 - Freigestellte Renders (film_transparent) werden im Compositor auf den Studio-Hintergrund gesetzt; Glühen beim Härten per Farbkorrektur im Compositor (clip „ofen“).
 - Compositor (PIL → ffmpeg) ≈ 10 Min. für 6 Min. Video. Audio: Stimme + Musik je Kapitel (Ducking unter Stimme) + SFX, Endmix loudnorm −14 LUFS.
