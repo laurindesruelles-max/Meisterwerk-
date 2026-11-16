@@ -28,3 +28,9 @@ Zuerst immer `LESSONS.md` lesen – dort stehen Laurins feste Regeln.
 5. Compositor (Kopie von intro.py/main.py anpassen) → Stills prüfen → rendern → zusammenfügen + loudnorm.
 6. Thumbnail (dunkel, glühend, 2 Zeilen), 3–4 Titel scoren, Beschreibung mit Kapiteln + Quellen.
 7. YouTube-Entwurf über vidIQ, veröffentlichen erst nach Laurins „ja“.
+
+## Endkontrolle vor jeder Freigabe (seit 16.11.2026)
+1. `python3 engine/qa.py <FINAL.mp4> videos/NNN-slug` → Technik (Länge, Lautheit, Spitzenpegel, Schwarz-/Standbilder, Auflösung) + `qa_frames.jpg` + `qa.md` (Prüfbericht). Exit 1 = nicht hochladen.
+2. Unabhängiger Faktencheck durch einen separaten Agenten (Skript + Quellen → Tabelle Aussage/Quelle/Stimmt?). Alles Unbelegte ändern oder streichen.
+3. Recht (Äußerungsrecht, Personen, Marken, Titel/Thumbnail), Lizenzen und YouTube-Punkte in `qa.md` abhaken.
+4. Laurin bekommt zur Freigabe: Video, Thumbnail, Titel + Kurzfassung des Prüfberichts (inkl. Hinweis, ob „veränderte/synthetische Inhalte“ gesetzt werden muss).
