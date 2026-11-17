@@ -1,5 +1,7 @@
 # Geräusch-Bibliothek Meisterwerk (assets/sfx)
 
+> **Regel (Laurin 17.11.2026): Jeder Kanal hat seine eigenen Effekte.** Meisterwerk nutzt nur die Sounds in diesem Ordner (plus Tastatursounds key0–7 aus setup.sh), nicht die Goldsmith-Bibliothek. Neue Meisterwerk-Sounds hierher + Zeile in dieser Liste.
+
 Neu seit 16.11.2026: echte CC0-Aufnahmen von SFXMint (über Hugging Face flreey/sfxmint-cc0-sound-effects bzw. SFXMint-API), auf Rauschen geprüft, gesäubert, lautheitsnormalisiert. Frei nutzbar, keine Quellenangabe nötig.
 
 **Regel:** Jede sichtbare Bewegung bekommt ihr echtes Geräusch (Presse = hammer, Maschine läuft = machine_engine, Ventil = pneumatic_hiss …) – per `engine/clip_sounds.py` direkt an die Blender-Frames gehängt. Nie selbst synthetisierte Sounds. Text-Einblendungen weiterhin `shutter` (Kamera-Klick), Daten/Orte Tastatur key0–7.
