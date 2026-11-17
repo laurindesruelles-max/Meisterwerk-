@@ -39,7 +39,7 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 | # | Video | Datum | Ergebnis | Erkenntnis |
 |---|---|---|---|---|
 | 001 | Ohne diese deutsche Erfindung würde die Welt stillstehen (Kugellager) | 15.11.2026 (f3e_nM6sLgk) | (offen) | Pilot. Sounds mehrfach getauscht (Kamera-Klick), Stimme auf elevenlabs_v4 gewechselt, Thumbnail-Stil auf dunkel/dramatisch geändert, Endkarte mit Kommentar + Glocke ergänzt. |
-| 002 | Brenner-Basistunnel (Titel offen, Favorit: „Dieses Monster frisst sich 64 km durch die Alpen“) | 17.11.2026, Entwurf geplant 18.11.2026 18:00 | (offen) | Megaprojekt-Format, 11:02 lang, 10 Blender-Szenen + 2D-Diagramme, 6 KI-Stimmungsbilder. |
+| 002 | Warum Europa für 11,7 Milliarden ein Loch durch die Alpen bohrt (Brenner-Basistunnel) | geplant 18.11.2026 18:00 (BugCEN8HKO0) | (offen) | Megaprojekt-Format, 11:05. Laurin wählte Titel 4 (vidIQ 76, nicht den Top-Score 82) und Thumbnail 3 „11,7 MRD. € / FÜR EIN LOCH?!“ – Geld-Schockzahl + Frage schlägt Längenangabe. |
 - Musik (Laurin 17.11.2026): KEINE neuen Tracks pro Video erzeugen – nur die feste Bibliothek in assets/music nutzen. Neue Tracks nur auf ausdrücklichen Wunsch (kostet Credits).
 - music_tension aus der Bibliothek gelöscht (Laurin 17.11.2026: zu anstrengend) – nicht mehr verwenden.
 - BEWEGUNG statt Standbild (Laurin 17.11.2026): In Video 001 waren am Anfang die Flugzeuge nur Standbilder. Ab jetzt muss sich alles,
