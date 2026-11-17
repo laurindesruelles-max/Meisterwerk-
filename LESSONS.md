@@ -27,3 +27,4 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 | # | Video | Datum | Ergebnis | Erkenntnis |
 |---|---|---|---|---|
 | 001 | Ohne diese deutsche Erfindung würde die Welt stillstehen (Kugellager) | 15.11.2026 (f3e_nM6sLgk) | (offen) | Pilot. Sounds mehrfach getauscht (Kamera-Klick), Stimme auf elevenlabs_v4 gewechselt, Thumbnail-Stil auf dunkel/dramatisch geändert, Endkarte mit Kommentar + Glocke ergänzt. |
+- Musik (Laurin 17.11.2026): KEINE neuen Tracks pro Video erzeugen – nur die feste Bibliothek in assets/music nutzen. Neue Tracks nur auf ausdrücklichen Wunsch (kostet Credits).
