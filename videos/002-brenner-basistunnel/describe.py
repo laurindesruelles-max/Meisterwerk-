@@ -2,7 +2,7 @@ import sys; sys.argv=["x","none"]
 from main import segs, CH, TOTAL
 def ts(t): t=int(t); return f"{t//60}:{t%60:02d}"
 chap=[("0:00","Intro: Unter dem Brennerpass")]+[(ts(s),CH[int(n[4:])]) for n,s,d in segs if isinstance(n,str) and n.startswith("card")]
-desc = """Unter dem Brennerpass entsteht die längste unterirdische Eisenbahnverbindung der Welt: der Brenner-Basistunnel. 55 Kilometer von Innsbruck bis Franzensfeste, 64 mit der Umfahrung Innsbruck, rund 230 Kilometer Tunnel insgesamt. Wir zeigen in 3D, wie Tunnelbohrmaschinen wie „Flavia“ sich durch die Alpen fressen, warum es einen dritten Tunnel unter den Röhren gibt, wie der Berg sich wehrt – und warum der Tunnel ausgerechnet in Deutschland einen Haken hat.
+desc = """Unter dem Brennerpass entsteht – nach Angaben der Betreiber – die längste unterirdische Eisenbahnverbindung der Welt: der Brenner-Basistunnel. 55 Kilometer von Innsbruck bis Franzensfeste, 64 mit der Umfahrung Innsbruck, rund 230 Kilometer Tunnel insgesamt. Wir zeigen in 3D, wie Tunnelbohrmaschinen wie „Flavia“ sich durch die Alpen fressen, warum es einen dritten Tunnel unter den Röhren gibt, wie der Berg sich wehrt – und warum der Tunnel ausgerechnet in Deutschland einen Haken hat.
 
 KAPITEL
 """ + "\n".join(f"{a} {b}" for a,b in chap) + """

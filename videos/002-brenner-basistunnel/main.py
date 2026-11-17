@@ -34,7 +34,7 @@ def ss(n, k):
 
 BERG = anchors("berg")
 
-def frame(t):
+def _frame(t):
     sid, s0, T = seg_at(t); lt = t - s0
     if isinstance(sid, str):
         if sid == "title": return title_card(lt, "BRENNER-BASISTUNNEL", "Wie die Dinge wirklich gebaut werden")
@@ -52,7 +52,7 @@ def frame(t):
         else:
             im = kenburns(img("stau"), vt - Pv(1), T - Pv(1), 1.05, 1.18, .6, .5, .5, .55); im = punch(im, vt - Pv(1))
         big_number(im, t, v + 1.6, 2.4, lambda x: f"{x:.1f}".replace(".", ",") + " MIO.", (W / 2, H / 2 - 80), size=190, sub="Lkw pro Jahr über den Brenner (2025)", dur_c=1.2)
-        if vt > Pv(1): pill(im, t, P(1) + .8, "≈ 3× SO VIELE WIE ÜBER ALLE SCHWEIZER ALPENPÄSSE", (W / 2, 860), size=46, anchor="m", color=ORANGE)
+        if vt > Pv(1): pill(im, t, P(1) + .8, "FAST 3× SO VIELE WIE ÜBER ALLE SCHWEIZER ALPENPÄSSE", (W / 2, 860), size=46, anchor="m", color=ORANGE)
     elif sid == 3:
         u = 0.0; im = clip("berg", u, zoom=1.0 + .25 * ease(vt / T), cx=.5, cy=.6)
         z = 1.0 + .25 * ease(vt / T)
@@ -75,7 +75,7 @@ def frame(t):
     elif sid == 5:
         im = clip("durchschlag", .75 + .25 * vt / T, zoom=1.08 + .05 * vt / T)
         pill(im, t, v + 1.0, "ÖSTERREICH ⟷ ITALIEN", (110, 150), size=56)
-        pill(im, t, P(1) + .2, "UNTER DEN ALPEN HINDURCH", (110, 270), size=48, color=ORANGE)
+        pill(im, t, P(1) + .2, "UNTER DEM ALPENHAUPTKAMM", (110, 270), size=48, color=ORANGE)
     elif sid == 6:
         u = pw(vt, [(0, .2), (Pv(2), .75), (Pv(3), 1.0)])
         im = clip("berg", u, zoom=1.0)
@@ -94,7 +94,7 @@ def frame(t):
         big_number(im, t, v + 1.3, 11.7, lambda x: f"≈ {x:.1f}".replace(".", ",") + " MRD. €", (W / 2, H / 2 - 40), size=170, sub="Kosten laut aktueller Schätzung (Okt. 2026)", dur_c=1.0)
     elif sid == 9:
         im = clip("tbm", vt / T * .9)
-        pill(im, t, v + 1.2, "LÄNGER ALS JEDER BAHNTUNNEL ZUVOR", (110, 150), size=48)
+        pill(im, t, v + 1.2, "DAS LÄNGSTE TUNNELSYSTEM SEINER ART", (110, 150), size=48)
         pill(im, t, P(1) + .3, "DER BERG WEHRT SICH", (110, 270), size=52, color=ORANGE)
     # ---------------- KAPITEL 1: DAS PROBLEM ----------------
     elif sid == 101:
@@ -102,7 +102,7 @@ def frame(t):
         typed(im, t, v + 2.4, ["19. JAHRHUNDERT"], (110, 110))
     elif sid == 102:
         im = kenburns(img("dampf"), lt + 5.6, T + 5.6, 1.0, 1.25, .3, .5, .55, .5)
-        typed(im, t, v + .3, ["1860 – 1867", "INNSBRUCK → BOZEN"], (110, 110))
+        typed(im, t, v + .3, ["BAUZEIT 1864 – 1867", "INNSBRUCK → BOZEN"], (110, 110))
         pill(im, t, P(1) + .4, "MEISTERLEISTUNG IHRER ZEIT", (110, 330), size=46)
         pill(im, t, P(2) + .3, "EINFACH ÜBER DEN PASS", (110, 445), size=50, color=ORANGE)
     elif sid == 103:
@@ -261,8 +261,8 @@ def frame(t):
     elif sid == 404:
         im = clip("ueberbruch", pw(vt, [(0, 0), (T, .45)]), zoom=1.05)
         typed(im, t, v + .3, ["APRIL 2023"], (110, 110), size=50)
-        pill(im, t, P(1) + .6, "≈ 3,5 KM VOR DEM BRENNER", (110, 250), size=46)
-        pill(im, t, P(2) + .3, "> 1.200 m FELS DARÜBER", (110, 365), size=46, color=ORANGE)
+        pill(im, t, v + 3.0, "STÖRUNGSZONE ≈ 3,5 KM VOR DEM BRENNER", (110, 250), size=46)
+        pill(im, t, P(1) + .3, "> 1.200 m FELS DARÜBER", (110, 365), size=46, color=ORANGE)
     elif sid == 405:
         im = clip("ueberbruch", .45 + .55 * vt / T, zoom=1.05 + .1 * vt / T, tint=((40, 10, 0), .08))
         pill(im, t, v + .2, "STILLSTAND", (110, 150), size=60, color=(200, 30, 20))
@@ -270,9 +270,10 @@ def frame(t):
         pill(im, t, P(2) + .5, "FELS AUFWENDIG GESICHERT", (110, 270), size=46)
     elif sid == 406:
         im = clip("ueberbruch", .7 + .3 * vt / T, zoom=1.15, cx=.55, cy=.35)
-        big_number(im, t, P(1) + 1.6, 10, lambda x: f"{int(round(x))} ÜBERBRÜCHE", (W / 2, 860), size=110, dur_c=.7)
-        pill(im, t, P(3) + .2, "GESTEIN BRICHT NACH", (110, 150), size=48)
-        pill(im, t, P(5) + .3, "„IRIS“: ≈ 5.500 m³", (110, 270), size=56, color=ORANGE)
+        big_number(im, t, P(2) + 1.0, 10, lambda x: f"{int(round(x))} ÜBERBRÜCHE", (W / 2, 860), size=110, dur_c=.7)
+        pill(im, t, P(1) + .4, "ERKUNDUNGSSTOLLEN, ÖSTERREICH", (110, 150), size=44)
+        pill(im, t, P(3) + .2, "GESTEIN BRICHT NACH", (110, 260), size=44)
+        pill(im, t, P(5) + .3, "„IRIS“: ≈ 5.500 m³", (110, 370), size=52, color=ORANGE)
     elif sid == 407:
         im = kenburns(img("dorf"), lt, T, 1.0, 1.18, .3, .5, .2, .55)
         pills(im, t, [(v + .3, "WASSER", ORANGE), (P(2) + .5, "QUELLEN SCHÜTZEN")], y0=150)
@@ -363,13 +364,23 @@ def frame(t):
         im = clip(nm, min(u, 1.0)); im = punch(im, vt - c0)
         pills(im, t, [(v + .2, "230 KM TUNNEL"), (P(1) + .2, "21 MIO. m³ FELS"), (P(2) + .2, "> 25 JAHRE"), (P(3) + .4, "FAST FLACH", ORANGE)], y0=150)
     elif sid == 702:
-        im = clip("zug", .3 + .5 * vt / T, zoom=1.0 + .05 * vt / T)
+        im = clip("berg", 1.0, zoom=1.0 + .05 * vt / T)
         pill(im, t, P(3) + .4, "EIN MEISTERWERK", (W / 2, 150), size=64, anchor="m", color=ORANGE)
     elif sid == 703:
         im = endcard(vt, t_sub=Pv(2) + .3, t_bell=Pv(2) + 2.4); nobrand = True
     if im is None: im = BG.copy()
+    im = _drift(im, lt, T)
     if not nobrand: brand(im)
     return im
+
+def frame(t):
+    """slow push-in on every segment so no shot is ever a freeze frame (QA rule: Bewegung statt Standbild)"""
+    sid, s0, T = seg_at(t); lt = t - s0
+    return _frame(t)
+def _drift(im, lt, T):
+    z = 1.0 + .045 * min(max(lt / max(T, .1), 0), 1)
+    w, h = int(W * z), int(H * z)
+    return im.resize((w, h), Image.BILINEAR).crop(((w - W) // 2, (h - H) // 2, (w - W) // 2 + W, (h - H) // 2 + H))
 
 # ---------------- SFX ----------------
 def sfx_events():
@@ -387,8 +398,8 @@ def sfx_events():
               304: [a[304] + .8, P(304, 1) + .2, P(304, 2) + 2.5], 305: [a[305] + .3, P(305, 1) + .3, P(305, 2) + .2], 306: [P(306, 1) + .4, P(306, 2) + .1],
               307: [P(307, 1) + .3, P(307, 3) + .2, P(307, 4) + .3], 308: [a[308] + .2, P(308, 1) + 1.2], 309: [a[309] + 2.8],
               310: [a[310] + .3, P(310, 1) + .4, P(310, 2) + .3, P(310, 3) + .2], 311: [a[311] + .2, P(311, 1) + .2, P(311, 2) + .2, P(311, 3) + .2],
-              401: [a[401] + .2, P(401, 2) + 3.0], 402: [a[402] + .3, P(402, 2) + 1.8], 403: [P(403, 2) + .2, P(403, 3) + 2.5], 404: [P(404, 1) + .6, P(404, 2) + .3],
-              405: [a[405] + .2, P(405, 1) + .2, P(405, 2) + .5], 406: [P(406, 1) + 1.6, P(406, 3) + .2, P(406, 5) + .3], 407: [a[407] + .3, P(407, 2) + .5, P(407, 3) + 2.8],
+              401: [a[401] + .2, P(401, 2) + 3.0], 402: [a[402] + .3, P(402, 2) + 1.8], 403: [P(403, 2) + .2, P(403, 3) + 2.5], 404: [a[404] + 3.0, P(404, 1) + .3],
+              405: [a[405] + .2, P(405, 1) + .2, P(405, 2) + .5], 406: [P(406, 1) + .4, P(406, 2) + 1.0, P(406, 3) + .2, P(406, 5) + .3], 407: [a[407] + .3, P(407, 2) + .5, P(407, 3) + 2.8],
               409: [P(409, 1) + 1.5, P(409, 3) + .3, P(409, 4) + .3, P(409, 5) + .2], 410: [P(410, 1) + 3.0], 501: [P(501, 1) + .4, P(501, 2) + .2],
               502: [a[502] + .4, P(502, 2) + .3], 503: [a[503] + .3, a[503] + .3, a[503] + ss(503, 1) + 1.5], 504: [a[504] + .2, P(504, 4) + .5] + [a[504] + x for x in (ss(504, 1) + .4, ss(504, 1) + 1.2, ss(504, 2) + .4, ss(504, 3) + .3, ss(504, 3) + 1.3)],
               505: [P(505, 1) + .3, P(505, 2) + .3, P(505, 3) + .3, P(505, 4) + .2], 506: [a[506] + 2.8, P(506, 1) + .3, P(506, 1) + 1.6], 601: [P(601, 1) + .2],
@@ -397,7 +408,7 @@ def sfx_events():
     for n, ts in clicks.items():
         for x in ts: ev.append((x, "shutter", .42))
     typed_sfx(ev, a[1] + .3, ["BRENNERPASS", "1.371 m ü. M."]); typed_sfx(ev, a[4] + .2, ["28.07.2026", "10:35 UHR"])
-    typed_sfx(ev, a[101] + 2.4, ["19. JAHRHUNDERT"]); typed_sfx(ev, a[102] + .3, ["1860 – 1867", "INNSBRUCK → BOZEN"])
+    typed_sfx(ev, a[101] + 2.4, ["19. JAHRHUNDERT"]); typed_sfx(ev, a[102] + .3, ["BAUZEIT 1864 – 1867", "INNSBRUCK → BOZEN"])
     typed_sfx(ev, P(105, 2) + 2.2, ["INNTAL · WIPPTAL"]); typed_sfx(ev, P(301, 2) + .9, ['TBM „FLAVIA“']); typed_sfx(ev, P(309, 1) + 1.3, ["FRÜHJAHR 2025", "STAATSGRENZE ERREICHT"])
     typed_sfx(ev, a[404] + .3, ["APRIL 2023"]); typed_sfx(ev, P(410, 1) + .6, ["DEPONIE PADASTERTAL"]); typed_sfx(ev, a[501] + .3, ["18.09.2025"])
     # impacts
@@ -405,13 +416,31 @@ def sfx_events():
     tb = ss(310, 3) + .7; ev += [(a[310] + tb, "boom", .9), (a[310] + tb, "sub_drop", .5), (a[310] + tb + .05, "thud", .5)]
     tb = ss(501, 2) + 1.7; ev += [(a[501] + tb, "boom", .7), (a[501] + tb, "stamp", .4)]
     ev += [(a[8] + 1.3, "coins", .35), (P(505, 2) + .3, "coins", .3), (a[3] + ss(3, 1), "sub_drop", .35), (a[401] + ss(401, 2), "sub_drop", .35)]
-    ev += [(a[405] + .2, "glitch", .3), (P(406, 1) + 1.6, "thud", .5), (a[303] + .2, "whir", .3), (a[9] + .2, "whir", .25), (a[306] + .2, "roll", .3), (a[409] + .2, "roll", .3)]
+    ev += [(a[405] + .2, "glitch", .3), (P(406, 2) + 1.0, "thud", .5), (a[303] + .2, "whir", .3), (a[9] + .2, "whir", .25), (a[306] + .2, "roll", .3), (a[409] + .2, "roll", .3)]
     for k in range(6): ev.append((a[307] + 0.0 + k * 1.7, "thud", .25))
     ev += [(a[203] + 1.0, "whoosh", .4), (a[702] + 1.0, "whoosh", .3), (P(206, 1), "heartbeat", .35)]
+    # echte CC0-Geräusche für jede sichtbare Bewegung (Regel 16.11.2026)
+    def loop(name, n, g, t0=None, t1=None):
+        s0 = SEGSTART[n]; T = [x for x in segs if x[0] == n][0][2]
+        t, e = (t0 if t0 is not None else s0), (t1 if t1 is not None else s0 + T); d = max(.3, dur(f"{SFX}/{name}.wav") * .9)
+        while t < e - .2: ev.append((t, name, g)); t += d
+    ev += [(a[2] + .2, "car_pass", .45), (P(2, 1) + .1, "car_pass", .35), (a[105] + .5, "car_pass", .3)]
+    for n in (9, 301, 302, 308): loop("machine_engine", n, .28)
+    for n in (303, 304): loop("grind", n, .35); loop("machine_engine", n, .18)
+    loop("grind", 305, .4); ev += [(P(304, 2) + 2.3, "pneumatic_hiss", .45)]
+    for n in (306, 409): loop("machine_engine", n, .25)
+    for k in range(6): ev.append((a[307] + k * 1.7 - .3, "lever", .3)); ev.append((a[307] + k * 1.7 + .5, "pneumatic_hiss", .2))
+    ev += [(P(308, 1) + .9, "pneumatic_hiss", .4)]
+    for n in (404, 405, 406): loop("machine_engine", n, .15)
+    rnd = random.Random(8)
+    for n in (404, 406):
+        for k in range(8): ev.append((SEGSTART[n] + rnd.uniform(1, 9), "thud", .18))
+    loop("grind", 4, .3, a[4], a[4] + 5.7); loop("grind", 501, .3, a[501], a[501] + ss(501, 2) + 1.6)
+    for k in range(6): ev.append((P(310, 1) + .3 + k * .45, "hammer", .25))
     return ev
 
 MUSIC = [(0.0, "coldopen_tension", 0), ("title", "epic_empire", 0), ("card101", "emotional_piano", 0), ("card201", "industrial_drive", 0), ("card301", "industrial_drive", 60),
-         ("card401", "suspense_pulse", 0), ("card501", "epic_empire", 20), ("card601", "music_tension", 0), ("card701", "emotional_piano", 30)]
+         ("card401", "suspense_pulse", 0), ("card501", "epic_empire", 20), ("card601", "suspense_pulse", 40), ("card701", "emotional_piano", 30)]
 def music_bed(N):
     cues = [(SEGSTART[c] if isinstance(c, str) else c, nm, off) for c, nm, off in MUSIC]
     bed = np.zeros((N, 2), np.float32); XF = int(1.5 * SR); cache = {}
