@@ -28,3 +28,10 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 |---|---|---|---|---|
 | 001 | Ohne diese deutsche Erfindung würde die Welt stillstehen (Kugellager) | 15.11.2026 (f3e_nM6sLgk) | (offen) | Pilot. Sounds mehrfach getauscht (Kamera-Klick), Stimme auf elevenlabs_v4 gewechselt, Thumbnail-Stil auf dunkel/dramatisch geändert, Endkarte mit Kommentar + Glocke ergänzt. |
 - Musik (Laurin 17.11.2026): KEINE neuen Tracks pro Video erzeugen – nur die feste Bibliothek in assets/music nutzen. Neue Tracks nur auf ausdrücklichen Wunsch (kostet Credits).
+- music_tension aus der Bibliothek gelöscht (Laurin 17.11.2026: zu anstrengend) – nicht mehr verwenden.
+- BEWEGUNG statt Standbild (Laurin 17.11.2026): In Video 001 waren am Anfang die Flugzeuge nur Standbilder. Ab jetzt muss sich alles,
+  was sich in echt bewegt, auch im Video bewegen (Flugzeuge fliegen, Maschinen laufen, Bänder fahren, Teile werden gepresst/gedreht) –
+  als echte 3D-Animation in Blender, besonders im Hook/Cold Open. Viele animierte Szenen, kaum Stills.
+  Echte Texturen/Modelle/HDRIs von Poly Haven (engine/assets.py, CC0, wie bei Goldsmith) für Rumpf, Metall, Hallenböden, Himmel.
+  KI-Bilder höchstens als Ergänzung und dann mit Bewegung (2.5D-Parallaxe/Licht-Effekte aus goldsmith-pipeline engine/depth25d.py + cinemagraph.py).
+  Schnell-Modus für mehr Animation: Cycles 4 Samples, 67 % Auflösung (≈4,4 s/Frame, kaum sichtbarer Unterschied).
