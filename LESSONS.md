@@ -23,10 +23,21 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 - Kanal ist (noch) nicht verifiziert → eigene Thumbnails werden abgelehnt, bis Laurin den Kanal mit einer zweiten Telefonnummer bestätigt (seine Nummer hat das Limit von 2 Kanälen/Jahr erreicht). Max. 15 Min. Videolänge bis dahin.
 - Upload: Higgsfield media_upload (curl PUT) → cloudfront-URL → vidiq_video_upload / vidiq_upload_image (url) → vidiq_social_post_draft_create (YOUTUBE, categoryId 28) → erst nach Laurins „ja“ veröffentlichen. Upload-Links von mcp.vidiq.com sind vom Sandbox-Proxy blockiert, daher immer über Higgsfield-cloudfront.
 
+## Produktion (Erfahrungswerte 17.11.2026, Video 002)
+- Skript mit ~1.370 Wörtern (Zahlen ausgeschrieben) ergab 10:09 Sprechzeit, mit Kapitelkarten und Pausen 11:02. Für 8:30–10:00 reichen ~1.150–1.250 Wörter.
+- Sprachdateien pro Satzblock (59 Stück) in 6er-Batches: jeder Batch dauert ~25 s. Satzanfänge per silencedetect → `timing.json`; Einblendungen hängen an „Satz k“ statt an festen Sekunden.
+- Blender 5.x: `frame_step = 2` halbiert die Renderzeit, der Compositor blendet die Zwischenframes. ~4–6 s/Frame auf 2 Kernen, ~780 Frames ≈ 75 Min.
+- Cutaway-Röhren (arc_seg um die X-Achse): offener Bogen muss zur Kamera zeigen (Kamera bei −y → Winkel −160°…100°). Zu helle Materialien wirken im AgX-Look weiß: Fels/Beton dunkler (0,1–0,4 linear), studio(k≈0,8).
+- Ein Bohrkopf in einer Felswand ist von der Seite unsichtbar – für Erklärszenen eine eigene Frontansicht rendern (Szene „kopf“).
+- Viele Inhalte (Profil, Querschnitt, Draufsicht, Karte, Zeitstrahl, Balken) als 2D-Diagramme in PIL (`diagrams.py`) – schneller und klarer als 3D.
+- Container kann mitten im Lauf neu starten: Hintergrundjobs mit `setsid nohup`, Video in Teilen rendern (`main.py part X t0 t1`), danach per concat zusammensetzen.
+- Thumbnails: Kamera-Keyframes aus übernommenen Szenen vorher mit `cam.animation_data_clear()` löschen.
+
 ## Video-Log
 | # | Video | Datum | Ergebnis | Erkenntnis |
 |---|---|---|---|---|
 | 001 | Ohne diese deutsche Erfindung würde die Welt stillstehen (Kugellager) | 15.11.2026 (f3e_nM6sLgk) | (offen) | Pilot. Sounds mehrfach getauscht (Kamera-Klick), Stimme auf elevenlabs_v4 gewechselt, Thumbnail-Stil auf dunkel/dramatisch geändert, Endkarte mit Kommentar + Glocke ergänzt. |
+| 002 | Brenner-Basistunnel (Titel offen, Favorit: „Dieses Monster frisst sich 64 km durch die Alpen“) | 17.11.2026, Entwurf geplant 18.11.2026 18:00 | (offen) | Megaprojekt-Format, 11:02 lang, 10 Blender-Szenen + 2D-Diagramme, 6 KI-Stimmungsbilder. |
 - Musik (Laurin 17.11.2026): KEINE neuen Tracks pro Video erzeugen – nur die feste Bibliothek in assets/music nutzen. Neue Tracks nur auf ausdrücklichen Wunsch (kostet Credits).
 - music_tension aus der Bibliothek gelöscht (Laurin 17.11.2026: zu anstrengend) – nicht mehr verwenden.
 - BEWEGUNG statt Standbild (Laurin 17.11.2026): In Video 001 waren am Anfang die Flugzeuge nur Standbilder. Ab jetzt muss sich alles,
