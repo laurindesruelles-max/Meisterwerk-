@@ -32,6 +32,8 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 - Viele Inhalte (Profil, Querschnitt, Draufsicht, Karte, Zeitstrahl, Balken) als 2D-Diagramme in PIL (`diagrams.py`) – schneller und klarer als 3D.
 - Container kann mitten im Lauf neu starten: Hintergrundjobs mit `setsid nohup`, Video in Teilen rendern (`main.py part X t0 t1`), danach per concat zusammensetzen.
 - Thumbnails: Kamera-Keyframes aus übernommenen Szenen vorher mit `cam.animation_data_clear()` löschen.
+- Vor dem Upload IMMER `git pull` (Laurin ändert Regeln auch während eines Laufs) und `engine/qa.py` laufen lassen. Diagramm-Standbilder fallen in der QA durch → leichter Push-in (+4,5 % pro Segment) auf jedem Bild.
+- Separater Faktencheck-Agent fand 3 echte Fehler (Zusammenhänge, nicht Zahlen): Längenvergleich nur fürs System gültig, Vorfall falscher Störungszone zugeordnet, Teilzahl als Gesamtzahl. Kausal-/Vergleichssätze besonders prüfen.
 
 ## Video-Log
 | # | Video | Datum | Ergebnis | Erkenntnis |
