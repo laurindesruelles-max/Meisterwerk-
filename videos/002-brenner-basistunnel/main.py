@@ -4,6 +4,8 @@ usage: python3 main.py still t1 t2 ...   |  python3 main.py times  |  python3 ma
 import sys
 from lib import *
 from diagrams import *
+import os; sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "engine"))
+from audio_ak import AK, ak_events, ak_music   # Ton-Regeln + Spannungskurve (audiokit)
 
 S = json.load(open(f"{D}/script.json"))
 TIM = json.load(open(f"{WORK}/timing.json"))
@@ -461,15 +463,21 @@ def mix(path):
     for n, at in vo_at.items():
         a_ = load(VO[n]); i = int(at * SR); voice[i:i + len(a_)] += a_[:N - i]
     voice *= .5 / (np.sqrt(np.mean(voice[np.abs(voice[:, 0]) > 1e-4] ** 2)) * 4 + 1e-9) * .8
-    music = music_bed(N)
-    vamp = np.abs(voice[:, 0]); k = int(.15 * SR); vs = np.convolve(vamp, np.ones(k) / k, mode="same")
-    duck = 1 - .55 * np.clip(vs / (np.percentile(vs, 99) * .25 + 1e-9), 0, 1)
-    env = np.ones(N, np.float32)
-    i0 = int((vo_at[408] - .5) * SR); i1 = int((vo_at[408] + L[408] + 1.0) * SR); env[i0:i1] = .35  # quiet moment
-    music *= (duck * env)[:, None] * .30
-    end_f = int((TOTAL - 2.0) * SR); music[end_f:] *= np.linspace(1, 0, N - end_f)[:, None]
+    if AK is not None:   # audiokit (18.11.2026): Spannungskurve statt 1 Track je Kapitel, Ducking + Pegel automatisch
+        big = [(vo_at[4] + 5.75, "enthuellung", 4), (vo_at[310] + ss(310, 3) + .7, "enthuellung", 3), (vo_at[501] + ss(501, 2) + 1.7, "enthuellung", 3)]
+        music = ak_music(N, voice, TOTAL, S, vo_at, L, CH, SEGSTART, MUSIC, MUS, big, stimuli=[s[1] for s in segs])
+        end_f = int((TOTAL - 2.0) * SR); music[end_f:] *= np.linspace(1, 0, N - end_f)[:, None]
+    else: music = None
+    if music is None:
+      music = music_bed(N)
+      vamp = np.abs(voice[:, 0]); k = int(.15 * SR); vs = np.convolve(vamp, np.ones(k) / k, mode="same")
+      duck = 1 - .55 * np.clip(vs / (np.percentile(vs, 99) * .25 + 1e-9), 0, 1)
+      env = np.ones(N, np.float32)
+      i0 = int((vo_at[408] - .5) * SR); i1 = int((vo_at[408] + L[408] + 1.0) * SR); env[i0:i1] = .35  # quiet moment
+      music *= (duck * env)[:, None] * .30
+      end_f = int((TOTAL - 2.0) * SR); music[end_f:] *= np.linspace(1, 0, N - end_f)[:, None]
     fx = np.zeros((N, 2), np.float32); cache = {}
-    for at, name, g in sfx_events():
+    for at, name, g in ak_events(sfx_events(), SFX):
         if name not in cache: cache[name] = load(f"{SFX}/{name}.wav")
         s = cache[name]
         if name.startswith("key"): g *= .75
@@ -477,6 +485,10 @@ def mix(path):
         if 0 <= i < N: fx[i:i + len(s)] += s[:N - i] * g
     out = np.tanh((voice + music + fx * .8) * 1.1) * .95
     wf.write(path, SR, (out * 32767).astype(np.int16))
+    if AK is not None:
+        wf.write(path + ".v.wav", SR, voice.astype(np.float32)); wf.write(path + ".m.wav", SR, music.astype(np.float32))
+        AK.LOG.append("Hinweis: Endlautheit wird erst nach loudnorm beim Zusammenfügen erreicht (Ziel −14 LUFS).")
+        AK.final_check(path, path + ".v.wav", path + ".m.wav"); AK.write_report(f"{D}/ton_bericht.txt")
 
 def render_video(path, t0=0.0, t1=None):
     t1 = t1 or TOTAL
