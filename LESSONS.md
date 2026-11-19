@@ -13,7 +13,7 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 - **Titel**: Neugier/Geheimnis/Superlativ wie bei Goldsmith, nicht beschreibend. Laurin wählte „Ohne diese deutsche Erfindung würde die Welt stillstehen“ statt „20 Tonnen für eine Kugel: So entsteht ein Kugellager“. 3–4 Titel mit vidiq_score_title prüfen, Laurin wählen lassen.
 - **Ende jedes Videos (Pflicht)**: Kommentar-Frage („Welches Bauteil sollen wir als Nächstes auseinandernehmen? Schreib es in die Kommentare.“) + „Abonniere Meisterwerk und aktiviere die Glocke“. Endkarte mit Kommentar-Feld, Abonnieren-Button, wackelnder Glocke.
 - **Beschreibung**: Kapitel mit Zeitstempeln, Kommentar-Frage, Abo-Hinweis und IMMER eine Quellenliste (jede Zahl belegt).
-- **Hook**: überraschender Einstieg aus Geschichte/Alltag (Bomber 1943 → „Und das hier.“ → Kugel), dann Titelkarte.
+- **Hook**: überraschender Einstieg aus Geschichte/Alltag (Bomber 1943 → „Und das hier.“ → Kugel), dann Titelkarte. Ab 19.11.2026 zusätzlich die „Hook-Regeln“ unten.
 
 ## Produktion (Erfahrungswerte 15.11.2026)
 - 001 war nur 7:20 – zu kurz. Ab 002 mindestens 8:30 (Intro 80 s + 5–6 Kapitel, ~1.250–1.400 Wörter).
@@ -56,3 +56,16 @@ Problem: Soundeffekte oft unpassend/billig, Musik zu gleichförmig – Laurin sc
 - Musik nach Spannungskurve: Wechsel der Stelle/des Tracks spätestens alle ~60–80 s, Anschwellen vor Enthüllungen/Zahlen, Bogen pro Kapitel, Pegel automatisch unter der Stimme. Weiterhin nur die eigene Musik-Bibliothek, keine neuen Tracks.
 - Im Skript Enthüllungen klar formulieren (Zahl, „aber“, „doch“, Frage → Antwort): daraus baut die Spannungskurve.
 - Bericht meldet Lücken > 22 s ohne neuen Reiz → dort Bild/Effekt/Schnitt ergänzen, bevor gerendert wird.
+
+## Hook-Regeln (Laurin 19.11.2026 – gilt ab dem nächsten Video)
+Grundlage: Auswertung erfolgreicher Ausreißer-Videos in allen 5 Nischen (vidIQ), Hook-Studie mit über 4.000 Hooks aus Videos mit über 1 Mio. Aufrufen, Aprilynne Alters Intro-Formel. Es gibt keinen einzelnen besten Hook-Typ – aber alle erfolgreichen Hooks haben diesen Aufbau:
+1. **Thema in 0–5 s gesagt UND gezeigt** – genau das, was Titel und Thumbnail versprechen; das Thumbnail-Motiv ist im ersten Bild zu sehen. Kein Datum, kein Logo, keine Vorrede als erster Satz.
+2. **Offene Frage / Rätsel spätestens bei 10–15 s.** Die Antwort kommt frühestens im letzten Drittel.
+3. **Konkretes Versprechen vor Hook-Ende** (was man am Ende weiß, wie viele Punkte, wer dahintersteckt).
+4. **Bestes Material zuerst:** die stärkste Animation / das stärkste Bild gehört in den Hook.
+5. **Kurz:** Hook-Länge siehe Kanal-Regel unten. Kontext erst danach, nicht vorne stapeln.
+6. **Rehook:** Jedes Kapitel endet mit einer neuen offenen Frage.
+
+**Prüfung vor dem Rendern** (in qa.md eintragen): Sekunde, ab der das Thema klar ist (≤ 5), Sekunde der offenen Frage (≤ 15), Versprechen ja/nein, Hook-Länge (Wörter ÷ 2,4 = Sekunden).
+**Nach 48 h:** Retention bei 30 s per vidIQ (audience_retention) ins Video-Log. Ziel ≥ 70 %. Unter 50 % → beim nächsten Video den Alternativ-Typ unten nehmen.
+**Meisterwerk-Hook:** **„Unmögliche Frage“** („Wie kann man … bohren, ohne …?“ / „Warum stürzt … nicht ein?“) **oder Szene mit Wendung** (etwas Unmögliches beschreiben – „Und doch schwimmt es.“ – dann auflösen, was es ist). Bauteil/Projekt aus dem Titel spätestens bei 5 s im Bild (Brenner-Hook 002 war gut, aber das Thema kam erst nach ~25 s). Zahlen als greifbarer Vergleich („länger als zwei Fußballfelder“). „du“ ist hier nicht nötig. **Länge bis Titelkarte 30–45 s.**
