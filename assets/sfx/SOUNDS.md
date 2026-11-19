@@ -1,5 +1,7 @@
 # Geräusch-Bibliothek Meisterwerk (assets/sfx)
 
+> **Update (Laurin 19.11.2026): Gemeinsame Sound-Bibliothek für alle Kanäle** – zusätzlich zu diesem Ordner dürfen alle Effekte aus `laurindesruelles-max/sound-bibliothek` genutzt werden, gefiltert nach dem Stilprofil des Kanals (README dort, `sk.py find … --channel <kanal>`). Musik bleibt kanal-eigen. Die Regel vom 17.11. („nur eigene Effekte“) gilt damit nicht mehr. Meisterwerk: nur echte Aufnahmen (sk.py filtert synthetische).
+
 > **Regel (Laurin 17.11.2026): Jeder Kanal hat seine eigenen Effekte.** Meisterwerk nutzt nur die Sounds in diesem Ordner (plus Tastatursounds key0–7 aus setup.sh), nicht die Goldsmith-Bibliothek. Neue Meisterwerk-Sounds hierher + Zeile in dieser Liste.
 
 Neu seit 16.11.2026: echte CC0-Aufnahmen von SFXMint (über Hugging Face flreey/sfxmint-cc0-sound-effects bzw. SFXMint-API), auf Rauschen geprüft, gesäubert, lautheitsnormalisiert. Frei nutzbar, keine Quellenangabe nötig.
