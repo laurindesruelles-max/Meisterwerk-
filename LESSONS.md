@@ -69,3 +69,9 @@ Grundlage: Auswertung erfolgreicher Ausreißer-Videos in allen 5 Nischen (vidIQ)
 **Prüfung vor dem Rendern** (in qa.md eintragen): Sekunde, ab der das Thema klar ist (≤ 5), Sekunde der offenen Frage (≤ 15), Versprechen ja/nein, Hook-Länge (Wörter ÷ 2,4 = Sekunden).
 **Nach 48 h:** Retention bei 30 s per vidIQ (audience_retention) ins Video-Log. Ziel ≥ 70 %. Unter 50 % → beim nächsten Video den Alternativ-Typ unten nehmen.
 **Meisterwerk-Hook:** **„Unmögliche Frage“** („Wie kann man … bohren, ohne …?“ / „Warum stürzt … nicht ein?“) **oder Szene mit Wendung** (etwas Unmögliches beschreiben – „Und doch schwimmt es.“ – dann auflösen, was es ist). Bauteil/Projekt aus dem Titel spätestens bei 5 s im Bild (Brenner-Hook 002 war gut, aber das Thema kam erst nach ~25 s). Zahlen als greifbarer Vergleich („länger als zwei Fußballfelder“). „du“ ist hier nicht nötig. **Länge bis Titelkarte 30–45 s.**
+
+## Sound-Bibliothek aus Laurins Sammlung (19.11.2026)
+- setup.sh lädt `bibliothek/meisterwerk/` (NUR die Effekte dieses Kanals) + `bibliothek/gemeinsam/` (Foley, Atmos, Waffen) nach /home/claude/sfx-bibliothek/bibliothek. Liste: `bibliothek/meisterwerk/LISTE.md` im Repo sound-mediathek.
+- **Reihenfolge bei der Sound-Wahl:** 1. eigene assets/sfx (abgenommen) → 2. Bibliothek (`import bibliothek as BIB; BIB.pick("meisterwerk", "whoosh", seed=<video-ordner>)`, `BIB.suche("auto")`) → 3. Hugging Face/SFXMint nur, wenn nichts passt.
+- `seed` = Video-Ordner: so wechseln die Sounds von Video zu Video, ohne dass es zufällig klingt. Alle Bibliotheks-Sounds sind geprüft (audit.py), Memes/geschützte/kommerzielle Sounds sind aussortiert.
+- Nie Effekte aus fremden Kanal-Ordnern nehmen; `reserve/` nur nach Rückfrage bei Laurin.
