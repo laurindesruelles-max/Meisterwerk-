@@ -39,3 +39,15 @@ Gemeinsame Regeln: `HANDWERK.md`. Hier steht nur, was Meisterwerk von den andere
 **Raus:** Kamera-Klick als Sound bei Texteinblendungen (klingt billig), eingetippter Text mit Tastatur (gehört Goldsmith) und stehende Objekte, denn alles bewegt sich. Kein Querschnitt, der gehört Unterbau: Das Innere zeigt die Explosionsansicht.
 
 Stilprobe: `stilprobe_meisterwerk.mp4` (20.11.2026). Sounds folgen nach dem Casting (`doku-ohren`).
+
+## Sound je Effekt (Stand 20.11.2026, Demo geschickt (20.11.2026))
+Geplant nach dem Grundsatz aus `HANDWERK.md`: erst festlegen, wo überhaupt ein Sound hingehört, dann je Stelle genau einen. Skripte: `engine/stilproben/ton_*.py`.
+
+| Effekt | Sound |
+| --- | --- |
+| Bemaßung | woodtick |
+| Explosionsansicht | lever (gekürzt) + whoosh, Kugeln landen: clink |
+| Zusammenbau | whoosh, Einrasten: Musik setzt aus, thud + sub_drop + clink |
+| Glühen | hiss leise |
+| Laser-Gravur | grind leise, gekürzt |
+| Musik | coldopen_tension (industrial_drive ist zu dicht für Effekt-Momente) |
