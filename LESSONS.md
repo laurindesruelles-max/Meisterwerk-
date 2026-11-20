@@ -1,5 +1,8 @@
 # Meisterwerk – Lernbuch (wird bei JEDEM Video gelesen und ergänzt)
 
+> **Seit 20.11.2026 zuerst lesen:** `HANDWERK.md` (Regeln für alle Kanäle) und `EFFEKTE.md` (Handschrift und erlaubte Effekte dieses Kanals, von Laurin abgenommen). Bei Widerspruch gelten diese beiden Dateien.
+
+
 Kanal: Meisterwerk (@meisterwerktv, Channel-ID UCscOIxeOlEDuGjAmtuxLFMw), deutsch.
 Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Megaprojekte (Hochhäuser, Flugzeuge, Tunnel …) in 3D.
 
