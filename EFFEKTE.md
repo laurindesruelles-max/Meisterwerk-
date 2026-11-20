@@ -40,7 +40,7 @@ Gemeinsame Regeln: `HANDWERK.md`. Hier steht nur, was Meisterwerk von den andere
 
 Stilprobe: `stilprobe_meisterwerk.mp4` (20.11.2026). Sounds folgen nach dem Casting (`doku-ohren`).
 
-## Sound je Effekt (Stand 20.11.2026, Demo geschickt (20.11.2026))
+## Sound je Effekt (Stand 20.11.2026, von Laurin abgenommen: „war gut“)
 Geplant nach dem Grundsatz aus `HANDWERK.md`: erst festlegen, wo überhaupt ein Sound hingehört, dann je Stelle genau einen. Skripte: `engine/stilproben/ton_*.py`.
 
 | Effekt | Sound |
