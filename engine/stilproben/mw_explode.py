@@ -8,7 +8,7 @@ exec(head)
 sc.render.film_transparent = False
 w.node_tree.nodes["Background"].inputs[0].default_value = (0.80, 0.78, 0.75, 1)
 tgt = empty("t")
-GLOW = mat("glow", (0.7, 0.7, 0.72, 1), 1.0, 0.25, emit=(1.0, 0.35, 0.05, 1))
+GLOW = mat("glow", (0.7, 0.7, 0.72, 1), 1.0, 0.25, emit=(1.0, 0.18, 0.01, 1))
 o = outer_ring(GLOW); i = inner_ring(); cu = cage_half(8, 0.33); cd = cage_half(8, -0.33)
 balls = [ball((PITCH * math.cos(2 * math.pi * k / 8), PITCH * math.sin(2 * math.pi * k / 8), 0)) for k in range(8)]
 root = empty("root")
@@ -32,7 +32,7 @@ cam.location = (0, -17, 6.5); key(cam, 1); cam.location = (6, -15, 7.5); key(cam
 # Gluehen des Aussenrings (204-276)
 bs = GLOW.node_tree.nodes["Principled BSDF"].inputs["Emission Strength"]
 bs.default_value = 0; bs.keyframe_insert("default_value", frame=204)
-bs.default_value = 9; bs.keyframe_insert("default_value", frame=250); bs.keyframe_insert("default_value", frame=276)
+bs.default_value = 2.2; bs.keyframe_insert("default_value", frame=250); bs.keyframe_insert("default_value", frame=276)
 sc.render.resolution_x, sc.render.resolution_y = 960, 540; sc.frame_step = 2
 sc.render.filepath = OUT + "/f_"
 if len(fs) == 2:
