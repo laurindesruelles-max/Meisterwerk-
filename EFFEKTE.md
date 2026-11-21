@@ -1,6 +1,7 @@
 # Meisterwerk – Handschrift und Effekte (von Laurin abgenommen am 20.11.2026)
 
 Gemeinsame Regeln: `HANDWERK.md`. Hier steht nur, was Meisterwerk von den anderen Kanälen unterscheidet.
+Weitere freigegebene Animationsarten für die Nische und die Bild-Drehbuch-Regeln: `ANIMATION.md` (21.11.2026).
 
 ## Erkennungsmerkmale
 | | Meisterwerk |
