@@ -51,4 +51,4 @@ Geplant nach dem Grundsatz aus `HANDWERK.md`: erst festlegen, wo überhaupt ein 
 | Zusammenbau | whoosh, Einrasten: Musik setzt aus, thud + sub_drop + clink |
 | Glühen | hiss leise |
 | Laser-Gravur | grind leise, gekürzt |
-| Musik | coldopen_tension (industrial_drive ist zu dicht für Effekt-Momente) |
+| Musik | coldopen_tension (industrial_drive ist zu dicht für Effekt-Momente); Erklär-Kapitel werkhalle_puls, Präzision praezision_ticken, Megaprojekte aufbau_zeitraffer (alle drei 21.11.2026, siehe assets/music/MUSIK.md) |

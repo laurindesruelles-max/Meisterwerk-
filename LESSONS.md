@@ -78,3 +78,5 @@ Grundlage: Auswertung erfolgreicher Ausreißer-Videos in allen 5 Nischen (vidIQ)
 - **Reihenfolge bei der Sound-Wahl:** 1. eigene assets/sfx (abgenommen) → 2. Bibliothek (`import bibliothek as BIB; BIB.pick("meisterwerk", "whoosh", seed=<video-ordner>)`, `BIB.suche("auto")`) → 3. Hugging Face/SFXMint nur, wenn nichts passt.
 - `seed` = Video-Ordner: so wechseln die Sounds von Video zu Video, ohne dass es zufällig klingt. Alle Bibliotheks-Sounds sind geprüft (audit.py), Memes/geschützte/kommerzielle Sounds sind aussortiert.
 - Nie Effekte aus fremden Kanal-Ordnern nehmen; `reserve/` nur nach Rückfrage bei Laurin.
+
+- Musik (21.11.2026): 3 neue eigene Tracks (werkhalle_puls, praezision_ticken, aufbau_zeitraffer) – damit hat Meisterwerk 5 eigene Tracks. Alle drei von Gemini als PREMIUM/8 von 10 bewertet, nicht corporate, nicht episch. Unter der Stimme Höhen (Ticks) bzw. Mitten (Arpeggio) absenken. Details assets/music/MUSIK.md.
