@@ -1,0 +1,40 @@
+import json
+T = json.load(open("/home/claude/mw-work/004/timeline.json"))
+def ts(t): t = int(t); return f"{t // 60}:{t % 60:02d}"
+ch = "\n".join([f"0:00 Ein Teil, das absichtlich schief ist"] + [f"{ts(c['t0'])} Kapitel {c['num']}: {c['title']}" for c in T["cards"] if c["kind"] == "chapter"])
+D = f"""Ein Kolben wird bei 6.000 Umdrehungen 200-mal pro Sekunde gestoppt, trägt bei jeder Zündung bis zu 12 Tonnen – und ist trotzdem absichtlich nicht rund. Wir zeigen in 3D, wie aus flüssigem Aluminium ein Kolben wird: Legierung, Kokillenguss mit Salzkern und Ringträger, Wärmebehandlung, Feindrehen auf wenige Tausendstel Millimeter genau. Und warum ein perfekt runder Kolben deinen Motor zerstören würde.
+
+KAPITEL
+{ch}
+
+Welches Bauteil sollen wir als Nächstes auseinandernehmen? Schreib es in die Kommentare!
+Abonniere Meisterwerk und aktiviere die Glocke, damit du kein Video verpasst.
+
+QUELLEN
+• MAHLE (Hrsg.): Kolben und motorische Erprobung, Springer Vieweg (Leseprobe Kap. 2: Ovalität, Balligkeit, Einbauspiel, Toleranzen, Beschichtungen) – https://beckassets.blob.core.windows.net/product/readingsample/15907662/9783658095574-c1.pdf
+• MAHLE Kolbensysteme Pkw (Spitzendruck Diesel bis 210 bar) – https://www.mahle.com/en/products-and-services/passenger-cars/piston-systems/
+• MAHLE Workshop Heroes: Folgen für die Kolben (Temperaturen, Aluminium vs. Stahl, Stahlkolben 3–5 %) – https://workshop-heroes.mahle.com/en/article/consequences-for-the-pistons
+• MAHLE Kolbentechnik (Benziner über 120 bar, Kühlkanal bis zu −25 K) – https://automotiveworld.com/news-releases/mahle-piston-technology-for-modern-combustion-engines
+• MAHLE Chronik (1920, 1922) – https://www.us.mahle.com/en/about-mahle/mahle_chronicle
+• MAHLE 100 Jahre (Pressemitteilung) – https://newsroom.mahle.com/global/media/global_news/2020/11-100-years/20201127_pr_mahle_100years_en.pdf?download
+• MAHLE größter Kolbenhersteller (Eigenangabe) – https://www.br.mahle.com/en/products-and-services/engine_components/
+• Ferrari Magazin über MAHLE (rund 100 Mio. Kolben pro Jahr, Fertigung) – https://www.ferrari.com/en-EN/magazine/articles/mahle-light-alloy-pistons-fuse-tecnology-and-tradition
+• AUTO BILD bei MAHLE Rottweil (Guss, Salzkern, Siebdruck) – https://www.autobild.de/artikel/serie-produktion-von-autoteilen-35473.html
+• MAHLE Stahlkolben Rottweil seit 2014 – https://www.automotiveworld.com/news/mahle-delivers-millionth-steel-piston-passenger-car-diesel-engines-rottweil-plant/
+• Rheinmetall/MTZ: LiteKS-4 (Kolbenmasse) – https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Sonderver%C3%B6ffentlichungen/MTZ_Sonderdruck_LiteKS_4_Kolbensystem_de.pdf
+• MS Motorservice: Geschichte des Kolbens (Alfin, Salzkern) – https://www.ms-motorservice.com/en/company/history/always-the-right-rhythm-the-piston/
+• Kolbenlegierung AlSi12CuNiMg, Wärmebehandlung (Archives of Foundry Engineering 4/2021) – https://journals.pan.pl//Content/121729/PDF/AFE%204_2021_10.pdf
+• Wikipedia: Aluminium (Schmelzpunkt 660 °C) – https://de.wikipedia.org/wiki/Aluminium
+• Wikipedia: W. O. Bentley – https://en.wikipedia.org/wiki/W._O._Bentley
+• Wikipedia: Hypereutectic piston – https://en.wikipedia.org/wiki/Hypereutectic_piston
+• Wikipedia: Mean piston speed – https://en.wikipedia.org/wiki/Mean_piston_speed
+• Cycle World: G spots (Kolbenbeschleunigung) – https://issues.cycleworld.com/article/1999/3/1/g-spots
+• EngineLabs: Why pistons aren't always round – https://www.enginelabs.com/news/quick-tech-why-pistons-arent-always-round-with-efi-university/
+• Eigene Rechnungen (gerundet): 86 mm Hub bei 6.000/min; Wärmedehnung 86 mm × 200 K × 20·10⁻⁶/K; 200.000 km ≈ 300 Mio. Umdrehungen, 600 Mio. Hübe × 86 mm ≈ 50.000 km.
+
+Alle 3D-Animationen sind eigene Blender-Szenen und vereinfachte Schemata; Formabweichungen sind zur Verdeutlichung stark übertrieben dargestellt.
+Sounds: Freesound – „Water Hitting Hot Metal“ von JasonElrod (CC BY 3.0), „gas.whooosh“ von junggle (CC BY 4.0); weitere Geräusche CC0. Musik: eigene Produktion.
+Dieses Video ist unabhängig produziert und steht in keiner Verbindung zu den genannten Unternehmen; Markennamen dienen nur der Beschreibung.
+
+#Kolben #Motor #Fertigung #SoEntsteht #Meisterwerk"""
+open("description.txt", "w").write(D); print(D[:900])

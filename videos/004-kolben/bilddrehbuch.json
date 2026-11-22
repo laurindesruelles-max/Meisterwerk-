@@ -1,0 +1,2557 @@
+[
+ {
+  "satz": "Dieser Kolben wird 200-mal pro Sekunde gestoppt.",
+  "sek": 2.37,
+  "zeigt": "Kolben schießt im gläsernen Zylinder hoch, stoppt am oberen Totpunkt, Zähler 200 pro Sekunde",
+  "animation": "Zeitlupe mit Zähler",
+  "inhalt": [
+   "zahl",
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "teaser:rund",
+  "kapitel": 0,
+  "block": "h1",
+  "szene": "motor/slow"
+ },
+ {
+  "satz": "Und wieder losgeschleudert.",
+  "sek": 2.9,
+  "zeigt": "Zähler rattert hoch bis 200× stopps pro sekunde",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h1",
+  "szene": "count"
+ },
+ {
+  "satz": "Er ist das Herz jedes Verbrennungsmotors. Doch wer ihn genau nachmisst, entdeckt etwas Seltsames:",
+  "sek": 3.1,
+  "zeigt": "Kolben dreht sich unter einer Messuhr, Zeiger schlägt zweimal pro Umdrehung aus",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "frage:rund",
+  "kapitel": 0,
+  "block": "h2",
+  "szene": "messuhr/kalt"
+ },
+ {
+  "satz": "Er ist nicht rund.",
+  "sek": 2.59,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: Ø ≠ Ø",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h2",
+  "szene": "dim"
+ },
+ {
+  "satz": "Und er ist nicht gerade.",
+  "sek": 2.38,
+  "zeigt": "Seitenansicht, Umriss des Kolbens gegen eine gerade Linie: oben schmaler, Maßlinien zeichnen sich",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h2",
+  "szene": "profil/geist"
+ },
+ {
+  "satz": "Und er ist nicht gerade.",
+  "sek": 2.28,
+  "zeigt": "Linie zum Teil, Etikett „NICHT GERADE“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h2",
+  "szene": "call"
+ },
+ {
+  "satz": "Nicht aus Schlamperei. Sondern mit voller Absicht, auf den Tausendstel Millimeter genau.",
+  "sek": 2.72,
+  "zeigt": "Makro auf die Messuhr-Skala, Zeiger zittert, Maß 0,001 mm erscheint",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h3",
+  "szene": "messuhr/makro"
+ },
+ {
+  "satz": "Nicht aus Schlamperei. Sondern mit voller Absicht, auf den Tausendstel Millimeter genau.",
+  "sek": 3.32,
+  "zeigt": "Metallschild klappt auf: ≈ 0,007 mm – formtoleranz am schaft",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h3",
+  "szene": "plate"
+ },
+ {
+  "satz": "Warum baut der nach eigenen Angaben größte Kolbenhersteller der Welt jedes Jahr rund 100 Millionen Kolben, die schief sind?",
+  "sek": 3.42,
+  "zeigt": "Hunderte Kolben laufen auf einem Band vorbei, Zähler rattert hoch, Typenschild 100 Mio. pro Jahr",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "frage:warum_schief",
+  "kapitel": 0,
+  "block": "h4",
+  "szene": "band/zeitraffer"
+ },
+ {
+  "satz": "Warum baut der nach eigenen Angaben größte Kolbenhersteller der Welt jedes Jahr rund 100 Millionen Kolben, die schief sind?",
+  "sek": 2.99,
+  "zeigt": "Metallschild klappt auf: ≈ 100 MIO. – kolben pro jahr*",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h4",
+  "szene": "plate"
+ },
+ {
+  "satz": "Warum baut der nach eigenen Angaben größte Kolbenhersteller der Welt jedes Jahr rund 100 Millionen Kolben, die schief sind?",
+  "sek": 2.13,
+  "zeigt": "Laser brennt „WARUM SCHIEF?“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h4",
+  "szene": "laser"
+ },
+ {
+  "satz": "In den Umkehrpunkten wirkt auf ihn über 2000-fache Erdbeschleunigung.",
+  "sek": 2.22,
+  "zeigt": "Zündung: Flammenblitz über dem Kolben, Kolben wird nach unten gerissen, Zahlen 2.000 g und 12 t",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "zahl",
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h5",
+  "szene": "motor/zuend"
+ },
+ {
+  "satz": "Bei jeder Zündung drücken bis zu 12 Tonnen auf seine Oberseite.",
+  "sek": 2.66,
+  "zeigt": "Metallschild klappt auf: > 2.000 g – oben, bei 6.000/min",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h5",
+  "szene": "plate"
+ },
+ {
+  "satz": "Bei jeder Zündung drücken bis zu 12 Tonnen auf seine Oberseite.",
+  "sek": 0.62,
+  "zeigt": "Kamera ruckt beim Zünddruck",
+  "animation": "Schlag-Ruck",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h5",
+  "szene": "ruck"
+ },
+ {
+  "satz": "Bei jeder Zündung drücken bis zu 12 Tonnen auf seine Oberseite.",
+  "sek": 3.37,
+  "zeigt": "Metallschild klappt auf: bis 12 t – kraft auf den boden",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h5",
+  "szene": "plate"
+ },
+ {
+  "satz": "Wir schauen zu, wie aus flüssigem Aluminium ein Kolben wird.",
+  "sek": 3.05,
+  "zeigt": "Glühendes Aluminium fließt in eine Stahlform",
+  "animation": "Physik-Simulation",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "teaser:guss",
+  "kapitel": 0,
+  "block": "h6",
+  "szene": "guss/teaser"
+ },
+ {
+  "satz": "Und an dem Ende weißt du, warum ein perfekt runder Kolben deinen Motor zerstören würde.",
+  "sek": 3.05,
+  "zeigt": "Funken spritzen beim Einfließen der Schmelze",
+  "animation": "Funken",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h6",
+  "szene": "funken"
+ },
+ {
+  "satz": "Und an dem Ende weißt du, warum ein perfekt runder Kolben deinen Motor zerstören würde.",
+  "sek": 3.66,
+  "zeigt": "Kolben fliegt in Ringe, Bolzen, Sicherungsringe auseinander",
+  "animation": "Explosionsansicht",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "frage:zerstoeren",
+  "kapitel": 0,
+  "block": "h6",
+  "szene": "explode/auf"
+ },
+ {
+  "satz": "Und an dem Ende weißt du, warum ein perfekt runder Kolben deinen Motor zerstören würde.",
+  "sek": 2.44,
+  "zeigt": "Zoom auf die auseinanderfliegenden Teile",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 0,
+  "block": "h6",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Um die seltsame Form zu verstehen, müssen wir zuerst sehen, was ein Kolben aushalten muss.",
+  "sek": 3.14,
+  "zeigt": "Kamera fährt um den gläsernen Zylinder, Kolben läuft langsam",
+  "animation": "Fahrt durch die Fertigung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "101",
+  "szene": "motor/wide"
+ },
+ {
+  "satz": "Um die seltsame Form zu verstehen, müssen wir zuerst sehen, was ein Kolben aushalten muss.",
+  "sek": 2.57,
+  "zeigt": "Linie zum Teil, Etikett „ZYLINDER“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "101",
+  "szene": "call"
+ },
+ {
+  "satz": "Beim Beschleunigen dreht ein Motor schnell mal 6000 Umdrehungen pro Minute.",
+  "sek": 2.57,
+  "zeigt": "Drehzahlmesser-Schild springt auf 6.000 pro Minute, Kurbel dreht schneller",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "102",
+  "szene": "motor/tacho"
+ },
+ {
+  "satz": "Beim Beschleunigen dreht ein Motor schnell mal 6000 Umdrehungen pro Minute.",
+  "sek": 2.57,
+  "zeigt": "Zoom auf die schneller drehende Kurbelwelle",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "102",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Dann läuft die Kurbelwelle 100-mal pro Sekunde im Kreis.",
+  "sek": 2.95,
+  "zeigt": "Seitenansicht Kurbeltrieb in Zeitlupe, Kurbel dreht 100 mal pro Sekunde",
+  "animation": "Zeitlupe mit Zähler",
+  "inhalt": [
+   "geschehen",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "103",
+  "szene": "motor/side"
+ },
+ {
+  "satz": "Der Kolben hängt an ihr. Und er muss bei jeder Umdrehung zweimal komplett anhalten:",
+  "sek": 2.95,
+  "zeigt": "Metallschild klappt auf: 100 / s – umdrehungen",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "103",
+  "szene": "plate"
+ },
+ {
+  "satz": "ganz oben, und ganz unten.",
+  "sek": 4.13,
+  "zeigt": "Kolben stoppt oben und unten, Markierungen OT und UT blinken auf",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "103",
+  "szene": "motor/otut"
+ },
+ {
+  "satz": "ganz oben, und ganz unten.",
+  "sek": 1.77,
+  "zeigt": "Linie zum Teil, Etikett „UT – STOPP“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "103",
+  "szene": "call"
+ },
+ {
+  "satz": "Das sind 200 Vollbremsungen pro Sekunde.",
+  "sek": 1.47,
+  "zeigt": "Kolben rast, Zähler 200 Stopps pro Sekunde",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "104",
+  "szene": "motor/fast"
+ },
+ {
+  "satz": "Dazwischen erreicht er rund 100 Kilometer pro Stunde.",
+  "sek": 1.87,
+  "zeigt": "Zähler rattert hoch bis 200 vollbremsungen / sekunde",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "104",
+  "szene": "count"
+ },
+ {
+  "satz": "Dazwischen erreicht er rund 100 Kilometer pro Stunde.",
+  "sek": 1.67,
+  "zeigt": "Geschwindigkeitsanzeige am Kolben zeigt rund 100 km/h",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "104",
+  "szene": "motor/speed"
+ },
+ {
+  "satz": "Dazwischen erreicht er rund 100 Kilometer pro Stunde.",
+  "sek": 1.67,
+  "zeigt": "Metallschild klappt auf: ≈ 100 km/h – spitzentempo",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "104",
+  "szene": "plate"
+ },
+ {
+  "satz": "Ein Kolben wiegt nur etwa 200 Gramm.",
+  "sek": 1.45,
+  "zeigt": "Kolben 200 g hängt am Pleuel, ein 400-kg-Stahlblock fällt in den Haken",
+  "animation": "Größenvergleich",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "105",
+  "szene": "gewicht/a"
+ },
+ {
+  "satz": "Doch im oberen Umkehrpunkt zerrt er mit einer Gewichtskraft von rund 400 Kilogramm an seiner Pleuelstange.",
+  "sek": 3.88,
+  "zeigt": "Metallschild klappt auf: 200 g – kolben",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "105",
+  "szene": "plate"
+ },
+ {
+  "satz": "Doch im oberen Umkehrpunkt zerrt er mit einer Gewichtskraft von rund 400 Kilogramm an seiner Pleuelstange.",
+  "sek": 0.48,
+  "zeigt": "Block schlägt in den Haken, Kamera ruckt",
+  "animation": "Schlag-Ruck",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "105",
+  "szene": "ruck"
+ },
+ {
+  "satz": "Doch im oberen Umkehrpunkt zerrt er mit einer Gewichtskraft von rund 400 Kilogramm an seiner Pleuelstange.",
+  "sek": 3.88,
+  "zeigt": "Metallschild klappt auf: > 400 kg – zug am pleuel",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "105",
+  "szene": "plate"
+ },
+ {
+  "satz": "Und dann: die Zündung. Über dem Kolben verbrennt das Gemisch schlagartig.",
+  "sek": 3.53,
+  "zeigt": "Gemisch zündet, Flammenfront rollt über den Kolbenboden",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "106",
+  "szene": "motor/zuend2"
+ },
+ {
+  "satz": "Das Gas wird kurzzeitig weit über 2000 Grad heiß.",
+  "sek": 2.36,
+  "zeigt": "Zündung: Flammenblitz, die Kamera ruckt nach unten",
+  "animation": "Schlag-Ruck",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "106",
+  "szene": "ruck"
+ },
+ {
+  "satz": "Heißer, als Stahl zum Schmelzen braucht.",
+  "sek": 3.3,
+  "zeigt": "Flamme leuchtet, Laser graviert über 2.000 °C ins Metall",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "106",
+  "szene": "glut/flamme"
+ },
+ {
+  "satz": "Heißer, als Stahl zum Schmelzen braucht.",
+  "sek": 2.59,
+  "zeigt": "Laser brennt „> 2.000 °C“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "106",
+  "szene": "laser"
+ },
+ {
+  "satz": "Der Druck steigt im Benziner auf über 120 bar, im Diesel auf über 200 bar.",
+  "sek": 3.13,
+  "zeigt": "Ein Kran setzt Stahlträger: 120 bar Benziner, 200 bar Diesel, daneben 7 t und 12 t",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "107",
+  "szene": "2d/druck"
+ },
+ {
+  "satz": "Auf einen Kolben dieser Größe drückt das mit sieben bis 12 Tonnen.",
+  "sek": 3.34,
+  "zeigt": "Zweiter Stahlträger für 200 bar wird gesetzt",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "107",
+  "szene": "2d"
+ },
+ {
+  "satz": "Auf einen Kolben dieser Größe drückt das mit sieben bis 12 Tonnen.",
+  "sek": 3.96,
+  "zeigt": "Träger 7 t und 12 t, Bus-Silhouette",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "107",
+  "szene": "2d"
+ },
+ {
+  "satz": "Der Kolbenboden selbst wird dabei an manchen Stellen über 300 Grad heiß.",
+  "sek": 2.59,
+  "zeigt": "Kolbenboden glüht orange auf, Temperatur über 300 °C",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "108",
+  "szene": "glut/boden"
+ },
+ {
+  "satz": "Der Kolbenboden selbst wird dabei an manchen Stellen über 300 Grad heiß.",
+  "sek": 2.59,
+  "zeigt": "Laser brennt „> 300 °C“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "108",
+  "szene": "laser"
+ },
+ {
+  "satz": "Und das hunderte Millionen Mal.",
+  "sek": 1.33,
+  "zeigt": "Motor läuft, Kilometerzähler rollt bis 200.000 km",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "109",
+  "szene": "motor/laeuft"
+ },
+ {
+  "satz": "Ein Kolben im Auto soll ein ganzes Motorleben halten, oft 200000 Kilometer und mehr.",
+  "sek": 4.0,
+  "zeigt": "Zähler rattert hoch bis 600,000,000 hübe",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "109",
+  "szene": "count"
+ },
+ {
+  "satz": "Ein Kolben im Auto soll ein ganzes Motorleben halten, oft 200000 Kilometer und mehr.",
+  "sek": 3.56,
+  "zeigt": "Metallschild klappt auf: 200.000 km – und mehr",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "109",
+  "szene": "plate"
+ },
+ {
+  "satz": "Welches Material übersteht so etwas? Die Antwort klingt zuerst wie ein Fehler:",
+  "sek": 4.61,
+  "zeigt": "Aluminiumbarren dreht sich ins Licht, Laser graviert 660 °C",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "frage:alu",
+  "kapitel": 1,
+  "block": "110",
+  "szene": "barren/a"
+ },
+ {
+  "satz": "Aluminium. Ein Metall, das schon bei rund 660 Grad schmilzt.",
+  "sek": 4.61,
+  "zeigt": "Linie zum Teil, Etikett „ALUMINIUM“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "110",
+  "szene": "call"
+ },
+ {
+  "satz": "Aluminium. Ein Metall, das schon bei rund 660 Grad schmilzt.",
+  "sek": 3.95,
+  "zeigt": "Laser brennt „SCHMILZT BEI 660 °C“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 1,
+  "block": "110",
+  "szene": "laser"
+ },
+ {
+  "satz": "Früher waren Kolben aus Gusseisen oder Stahl.",
+  "sek": 2.7,
+  "zeigt": "Schwerer Graugusskolben senkt eine Waage",
+  "animation": "Physik-Simulation",
+  "inhalt": [
+   "vergleich"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "201",
+  "szene": "alt/waage"
+ },
+ {
+  "satz": "Schwer, aber robust.",
+  "sek": 2.7,
+  "zeigt": "Metallschild klappt auf: GRAUGUSS – schwer, robust",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "201",
+  "szene": "plate"
+ },
+ {
+  "satz": "1913 hatte ein junger Brite namens Walter Owen Bentley eine Idee.",
+  "sek": 2.4,
+  "zeigt": "Briefbeschwerer aus Aluminium auf einem Schreibtisch, Laser graviert 1913",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "zeit",
+   "person"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "202",
+  "szene": "brief/a"
+ },
+ {
+  "satz": "Angeblich inspiriert von einem Briefbeschwerer aus Aluminium.",
+  "sek": 3.84,
+  "zeigt": "Laser brennt „1913“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "202",
+  "szene": "laser"
+ },
+ {
+  "satz": "Angeblich inspiriert von einem Briefbeschwerer aus Aluminium.",
+  "sek": 3.36,
+  "zeigt": "Zoom auf den Briefbeschwerer aus Aluminium",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "202",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Er ließ für die Motoren seiner französischen Sportwagen Kolben aus Aluminium gießen.",
+  "sek": 3.87,
+  "zeigt": "Der Briefbeschwerer wird zum Kolben, schwerer Eisenkolben fährt weg",
+  "animation": "Match-Cut",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "203",
+  "szene": "alt/tausch"
+ },
+ {
+  "satz": "Und fuhr damit Rekorde.",
+  "sek": 3.17,
+  "zeigt": "Linie zum Teil, Etikett „KOLBEN AUS ALUMINIUM“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "203",
+  "szene": "call"
+ },
+ {
+  "satz": "Der Vorteil ist gewaltig: Aluminium wiegt nur ein Drittel so viel wie Stahl.",
+  "sek": 4.35,
+  "zeigt": "Stahlträger: Dichte 7,8 gegen 2,7, Wärmeleitung 45 gegen 130",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:alu",
+  "kapitel": 2,
+  "block": "204",
+  "szene": "2d/vergleich"
+ },
+ {
+  "satz": "Und es leitet die Hitze rund dreimal so gut ab.",
+  "sek": 4.35,
+  "zeigt": "Träger Wärmeleitung Stahl < 45 / Alu 130",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "204",
+  "szene": "2d"
+ },
+ {
+  "satz": "In Deutschland machten zwei Brüder daraus ein Weltgeschäft.",
+  "sek": 2.01,
+  "zeigt": "Kleine Werkstatt mit Werkbank, Laser graviert 1. Dezember 1920",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "zeit",
+   "ort"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "206",
+  "szene": "werkstatt/a"
+ },
+ {
+  "satz": "An dem 1. Dezember 1920 fing Hermann Mahle in einer kleinen Stuttgarter Versuchswerkstatt an.",
+  "sek": 4.02,
+  "zeigt": "Laser brennt „1. DEZEMBER 1920“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "206",
+  "szene": "laser"
+ },
+ {
+  "satz": "2 Jahre später kam sein Bruder Ernst dazu.",
+  "sek": 0.67,
+  "zeigt": "Metallschild klappt auf: STUTTGART – bad cannstatt",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "206",
+  "szene": "plate"
+ },
+ {
+  "satz": "2 Jahre später kam sein Bruder Ernst dazu.",
+  "sek": 3.75,
+  "zeigt": "Ortsmarke Stuttgart, Schild 1922 Bruder Ernst",
+  "animation": "Typenschild",
+  "inhalt": [
+   "ort",
+   "person"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "206",
+  "szene": "werkstatt/b"
+ },
+ {
+  "satz": "2 Jahre später kam sein Bruder Ernst dazu.",
+  "sek": 2.95,
+  "zeigt": "Metallschild klappt auf: 1922 – bruder ernst kommt dazu",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "206",
+  "szene": "plate"
+ },
+ {
+  "satz": "Ab 1922 spezialisierten sie sich auf Leichtmetallkolben.",
+  "sek": 2.09,
+  "zeigt": "Kolben stapeln sich im Zeitraffer, Typenschild 100 Mio. pro Jahr, Laser 1922",
+  "animation": "Zeitraffer-Aufbau",
+  "inhalt": [
+   "zeit",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "207",
+  "szene": "band/pile"
+ },
+ {
+  "satz": "Heute fertigt Mahle nach eigenen Angaben rund 100 Millionen Kolben im Jahr.",
+  "sek": 4.18,
+  "zeigt": "Laser brennt „AB 1922: LEICHTMETALLKOLBEN“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "207",
+  "szene": "laser"
+ },
+ {
+  "satz": "Heute fertigt Mahle nach eigenen Angaben rund 100 Millionen Kolben im Jahr.",
+  "sek": 4.18,
+  "zeigt": "Metallschild klappt auf: ≈ 100 MIO. – kolben pro jahr*",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "207",
+  "szene": "plate"
+ },
+ {
+  "satz": "Reines Aluminium wäre allerdings zu weich.",
+  "sek": 2.67,
+  "zeigt": "Graue Siliziumbrocken fallen in die glühende Schmelze",
+  "animation": "Physik-Simulation",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "208",
+  "szene": "schmelze/si"
+ },
+ {
+  "satz": "Deshalb kommt ein zweites Element in die Schmelze:",
+  "sek": 3.74,
+  "zeigt": "Linie zum Teil, Etikett „SILIZIUM“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "208",
+  "szene": "call"
+ },
+ {
+  "satz": "Silizium. Rund 12 Prozent.",
+  "sek": 2.5,
+  "zeigt": "Metallschild klappt auf: ≈ 12 % – silizium",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "208",
+  "szene": "plate"
+ },
+ {
+  "satz": "Silizium ist hart, verschleißfest, und es dehnt sich bei Hitze kaum aus.",
+  "sek": 5.19,
+  "zeigt": "Träger zeigen Anteile: Silizium 12 Prozent, Kupfer, Nickel, Magnesium je 1 Prozent",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "209",
+  "szene": "2d/legierung"
+ },
+ {
+  "satz": "Dazu kommen Kupfer, Nickel und Magnesium, jeweils etwa 1 Prozent.",
+  "sek": 5.19,
+  "zeigt": "Träger Kupfer, Nickel, Magnesium je ~1 %",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "209",
+  "szene": "2d"
+ },
+ {
+  "satz": "Doch selbst mit Silizium bleibt ein Problem. Aluminium dehnt sich bei Hitze fast doppelt so stark aus wie Stahl.",
+  "sek": 4.21,
+  "zeigt": "Stahlstab und Aluminiumstab werden heiß, Aluminium wächst fast doppelt so weit",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "frage:dehnung",
+  "kapitel": 2,
+  "block": "210",
+  "szene": "dehnung/a"
+ },
+ {
+  "satz": "Merk dir diesen Satz.",
+  "sek": 3.51,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: STAHL +1×",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "210",
+  "szene": "dim"
+ },
+ {
+  "satz": "Er ist der Schlüssel zum ganzen Rätsel.",
+  "sek": 3.79,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: ALU ≈ +2×",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "210",
+  "szene": "dim"
+ },
+ {
+  "satz": "Er ist der Schlüssel zum ganzen Rätsel.",
+  "sek": 2.53,
+  "zeigt": "Laser brennt „MERK DIR DAS“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 2,
+  "block": "210",
+  "szene": "laser"
+ },
+ {
+  "satz": "In der Gießerei werden Aluminiumbarren eingeschmolzen und bei rund 800 Grad mit Silizium legiert.",
+  "sek": 2.93,
+  "zeigt": "Barren sinken in den Schmelzofen, Laser 800 °C",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "zahl",
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "301",
+  "szene": "schmelze/barren"
+ },
+ {
+  "satz": "In der Gießerei werden Aluminiumbarren eingeschmolzen und bei rund 800 Grad mit Silizium legiert.",
+  "sek": 3.58,
+  "zeigt": "Laser brennt „≈ 800 °C“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "301",
+  "szene": "laser"
+ },
+ {
+  "satz": "Die Form ist aus Stahl, eine sogenannte Kokille. Sie besteht aus mehreren Teilen, die sich wie ein Puzzle zusammenschieben.",
+  "sek": 4.76,
+  "zeigt": "Teile der Stahlform schieben sich wie ein Puzzle zusammen",
+  "animation": "Explosionsansicht",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "302",
+  "szene": "kokille/zu"
+ },
+ {
+  "satz": "Die Form ist aus Stahl, eine sogenannte Kokille. Sie besteht aus mehreren Teilen, die sich wie ein Puzzle zusammenschieben.",
+  "sek": 3.18,
+  "zeigt": "Linie zum Teil, Etikett „KOKILLE (STAHLFORM)“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "302",
+  "szene": "call"
+ },
+ {
+  "satz": "Bei Kolben mit Kühlkanal legt die Maschine vorher etwas Ungewöhnliches in die Form:",
+  "sek": 4.76,
+  "zeigt": "Greifer setzt einen weißen Salzring in die Form",
+  "animation": "Roboter-Choreografie",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "frage:salz",
+  "kapitel": 3,
+  "block": "303",
+  "szene": "kokille/salz"
+ },
+ {
+  "satz": "einen Ring aus Salz.",
+  "sek": 2.56,
+  "zeigt": "Linie zum Teil, Etikett „SALZ“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "303",
+  "szene": "call"
+ },
+ {
+  "satz": "Bei Dieselkolben kommt noch ein zweiter Ring dazu, aus Gusseisen.",
+  "sek": 4.14,
+  "zeigt": "Gusseisenring taucht in flüssiges Aluminium und kommt silbrig heraus",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "304",
+  "szene": "alfin/tauchen"
+ },
+ {
+  "satz": "Der Ringträger. Er wird vorher in flüssiges Aluminium getaucht, damit er später fest mit dem Kolben verwächst.",
+  "sek": 3.45,
+  "zeigt": "Linie zum Teil, Etikett „RINGTRÄGER (GUSSEISEN)“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "304",
+  "szene": "call"
+ },
+ {
+  "satz": "Das Verfahren heißt Alfin.",
+  "sek": 2.07,
+  "zeigt": "Der Ringträger wird über dem Salzring in die Form gesetzt",
+  "animation": "Roboter-Choreografie",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "304",
+  "szene": "kokille/ring"
+ },
+ {
+  "satz": "Das Verfahren heißt Alfin.",
+  "sek": 4.14,
+  "zeigt": "Laser brennt „ALFIN-VERFAHREN“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "304",
+  "szene": "laser"
+ },
+ {
+  "satz": "Dann fließt die Schmelze. Ein Automat gießt zwei Kolben auf einmal.",
+  "sek": 3.05,
+  "zeigt": "Pfanne gießt glühende Schmelze in zwei Formen zugleich",
+  "animation": "Physik-Simulation",
+  "inhalt": [
+   "geschehen",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "305",
+  "szene": "guss/a"
+ },
+ {
+  "satz": "Das Metall umschließt Salz und Eisen.",
+  "sek": 1.9,
+  "zeigt": "Funken, wo der Strahl in die Form trifft",
+  "animation": "Funken",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "305",
+  "szene": "funken"
+ },
+ {
+  "satz": "Das Metall umschließt Salz und Eisen.",
+  "sek": 2.67,
+  "zeigt": "Metallschild klappt auf: 2 × KOLBEN – pro guss",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "305",
+  "szene": "plate"
+ },
+ {
+  "satz": "Nach dem Erstarren öffnet sich die Form, und die Rohlinge werden getrennt.",
+  "sek": 4.8,
+  "zeigt": "Form öffnet sich, zwei glühende Rohlinge werden getrennt",
+  "animation": "Explosionsansicht",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "306",
+  "szene": "entformen/a"
+ },
+ {
+  "satz": "Und jetzt kommt der Trick mit dem Salz. Ein Hochdruck-Wasserstrahl spült es einfach heraus.",
+  "sek": 3.94,
+  "zeigt": "Wasserstrahl spült weißes Salz aus dem Rohling, Kanal wird sichtbar",
+  "animation": "Physik-Simulation",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "antwort:salz",
+  "kapitel": 3,
+  "block": "307",
+  "szene": "spuelen/a"
+ },
+ {
+  "satz": "Zurück bleibt ein Hohlraum rund um den Kolben:",
+  "sek": 3.74,
+  "zeigt": "Zoom auf das herausfließende Salz",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "307",
+  "szene": "zoom"
+ },
+ {
+  "satz": "ein Kühlkanal.",
+  "sek": 2.17,
+  "zeigt": "Linie zum Teil, Etikett „KÜHLKANAL“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "307",
+  "szene": "call"
+ },
+ {
+  "satz": "Später spritzt Motoröl durch diesen Kanal und kühlt den Kolben von innen.",
+  "sek": 3.22,
+  "zeigt": "Öl strömt durch den Kühlkanal, Farbe am Boden wechselt von Orange zu Blau, minus 25 Grad",
+  "animation": "Kraftfluss",
+  "inhalt": [
+   "zahl",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "308",
+  "szene": "kanal/oel"
+ },
+ {
+  "satz": "Das senkt die Temperatur an dem Kolbenboden und an dem obersten Ring um bis zu 25 Grad.",
+  "sek": 4.29,
+  "zeigt": "Linie zum Teil, Etikett „ÖL“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "308",
+  "szene": "call"
+ },
+ {
+  "satz": "Das senkt die Temperatur an dem Kolbenboden und an dem obersten Ring um bis zu 25 Grad.",
+  "sek": 3.22,
+  "zeigt": "Metallschild klappt auf: bis – 25 K – am boden und 1. ring",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "308",
+  "szene": "plate"
+ },
+ {
+  "satz": "Und der Eisenring? Er sitzt genau dort, wo später der oberste Kolbenring läuft.",
+  "sek": 4.83,
+  "zeigt": "Ringträger leuchtet auf, Callout oberster Ring",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "309",
+  "szene": "kanal/ring"
+ },
+ {
+  "satz": "An der Stelle, die an dem meisten leidet.",
+  "sek": 3.22,
+  "zeigt": "Zoom auf den leuchtenden Ringträger",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "309",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Der Rohling sieht jetzt schon aus wie ein Kolben. Aber er ist noch zu weich und viel zu grob.",
+  "sek": 4.32,
+  "zeigt": "Grober Rohling dreht sich auf einem Band zur Drehmaschine",
+  "animation": "Fahrt durch die Fertigung",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "310",
+  "szene": "drehbank/roh"
+ },
+ {
+  "satz": "Das Entscheidende passiert erst an der Drehmaschine.",
+  "sek": 3.46,
+  "zeigt": "Zoom auf die raue Oberfläche des Rohlings",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "310",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Und dort macht das Werkzeug etwas, das auf den ersten Blick völlig falsch aussieht.",
+  "sek": 5.18,
+  "zeigt": "Drehmaschine im Dunkeln, nur das Werkzeug blitzt, Bewegung verdeckt",
+  "animation": "Werkzeugbahn",
+  "inhalt": [
+   "gefuehl"
+  ],
+  "genauigkeit": "stimmung",
+  "neugier": "frage:werkzeug",
+  "kapitel": 3,
+  "block": "310",
+  "szene": "drehbank/teaser"
+ },
+ {
+  "satz": "Und dort macht das Werkzeug etwas, das auf den ersten Blick völlig falsch aussieht.",
+  "sek": 4.32,
+  "zeigt": "Im Dunkeln blitzen Funken am Werkzeug auf",
+  "animation": "Funken",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 3,
+  "block": "310",
+  "szene": "funken"
+ },
+ {
+  "satz": "Zuerst kommt der Rohling in den Ofen. Bei rund 500 Grad lösen sich die Legierungselemente im Aluminium.",
+  "sek": 3.16,
+  "zeigt": "Kolben auf einem Gestell glühen im Ofen, Laser 500 °C",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "401",
+  "szene": "ofen/a"
+ },
+ {
+  "satz": "Zuerst kommt der Rohling in den Ofen. Bei rund 500 Grad lösen sich die Legierungselemente im Aluminium.",
+  "sek": 3.86,
+  "zeigt": "Laser brennt „≈ 500 °C“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "401",
+  "szene": "laser"
+ },
+ {
+  "satz": "Dann wird er in Wasser abgeschreckt.",
+  "sek": 0.44,
+  "zeigt": "Gestell taucht ins Wasser, Dampf schießt hoch",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "402",
+  "szene": "ofen/abschrecken"
+ },
+ {
+  "satz": "Zischend, in Sekunden.",
+  "sek": 3.93,
+  "zeigt": "Dampf schießt aus dem Wasser",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "402",
+  "szene": "dampf"
+ },
+ {
+  "satz": "Danach ruht er stundenlang bei rund 200 Grad. Dabei bilden sich winzige Teilchen, die das Metall hart machen.",
+  "sek": 3.65,
+  "zeigt": "Zoom ins Gefüge: winzige Teilchen scheiden sich aus, Uhr zeigt Stunden bei 200 °C",
+  "animation": "Materialkunde-Zoom",
+  "inhalt": [
+   "zeit",
+   "erklaerung",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "403",
+  "szene": "2d/gefuege"
+ },
+ {
+  "satz": "Danach ruht er stundenlang bei rund 200 Grad. Dabei bilden sich winzige Teilchen, die das Metall hart machen.",
+  "sek": 4.47,
+  "zeigt": "Teilchen scheiden sich aus, Uhr läuft Stunden",
+  "animation": "Materialkunde-Zoom",
+  "inhalt": [
+   "zeit",
+   "erklaerung",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "403",
+  "szene": "2d"
+ },
+ {
+  "satz": "Jetzt beginnt die Bearbeitung. Zuerst die Bohrung für den Kolbenbolzen, den Stahlstift zur Pleuelstange.",
+  "sek": 3.78,
+  "zeigt": "Bohrstange fährt durch die Bolzenbohrung, Späne fliegen",
+  "animation": "Werkzeugbahn",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "404",
+  "szene": "drehbank/bohren"
+ },
+ {
+  "satz": "Jetzt beginnt die Bearbeitung. Zuerst die Bohrung für den Kolbenbolzen, den Stahlstift zur Pleuelstange.",
+  "sek": 3.09,
+  "zeigt": "Späne fliegen aus der Bohrung",
+  "animation": "Funken",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "404",
+  "szene": "funken"
+ },
+ {
+  "satz": "Die Bohrung ist nur 0,002 bis 0,005 Millimeter größer als der Bolzen.",
+  "sek": 4.22,
+  "zeigt": "Makro: Spalt zwischen Bolzen und Bohrung, daneben ein Haar 20-mal dicker",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "405",
+  "szene": "2d/haar"
+ },
+ {
+  "satz": "Ein menschliches Haar ist rund zwanzigmal dicker.",
+  "sek": 4.22,
+  "zeigt": "Haar erscheint, 20× dicker",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "405",
+  "szene": "2d"
+ },
+ {
+  "satz": "Dann dreht die Maschine die Nuten für die Kolbenringe ein.",
+  "sek": 2.95,
+  "zeigt": "Drehmeißel sticht drei Ringnuten ein, Späne spritzen",
+  "animation": "Funken",
+  "inhalt": [
+   "geschehen",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "406",
+  "szene": "drehbank/nuten"
+ },
+ {
+  "satz": "3 schmale Rillen, ganz oben.",
+  "sek": 2.95,
+  "zeigt": "Linie zum Teil, Etikett „3 RINGNUTEN“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "406",
+  "szene": "call"
+ },
+ {
+  "satz": "Und dann kommt der seltsamste Schritt. Die Drehmaschine bearbeitet die Außenseite, den Schaft.",
+  "sek": 3.44,
+  "zeigt": "Drehmaschine im Licht, Kolben dreht, Meißel fährt am Schaft entlang",
+  "animation": "Fahrt durch die Fertigung",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "407",
+  "szene": "drehbank/schaft"
+ },
+ {
+  "satz": "Und dann kommt der seltsamste Schritt. Die Drehmaschine bearbeitet die Außenseite, den Schaft.",
+  "sek": 2.81,
+  "zeigt": "Zoom auf den Meißel am Schaft",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "407",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Aber schau genau auf das Werkzeug.",
+  "sek": 2.29,
+  "zeigt": "Nahaufnahme: Meißel fährt pro Umdrehung zweimal vor und zurück, Kurve zeichnet sich",
+  "animation": "Werkzeugbahn",
+  "inhalt": [
+   "geschehen",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:werkzeug",
+  "kapitel": 4,
+  "block": "408",
+  "szene": "drehbank/oszi"
+ },
+ {
+  "satz": "Bei jeder Umdrehung des Kolbens fährt es ein winziges Stück vor und zurück.",
+  "sek": 3.39,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: VOR – ZURÜCK",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "408",
+  "szene": "dim"
+ },
+ {
+  "satz": "Zweimal pro Umdrehung.",
+  "sek": 3.48,
+  "zeigt": "Zähler rattert hoch bis 2× pro umdrehung",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "408",
+  "szene": "count"
+ },
+ {
+  "satz": "Gleichzeitig dreht es den Kolben nach oben hin schmaler.",
+  "sek": 2.82,
+  "zeigt": "Seitenprofil, oben eingezogen, Maßlinien: einige Zehntelmillimeter",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "zahl",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "409",
+  "szene": "profil/konus"
+ },
+ {
+  "satz": "Ganz oben, an den Ringen, ist er einige 0,1 Millimeter dünner als unten an dem Schaft.",
+  "sek": 3.57,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: OBEN SCHMALER",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "409",
+  "szene": "dim"
+ },
+ {
+  "satz": "Ganz oben, an den Ringen, ist er einige 0,1 Millimeter dünner als unten an dem Schaft.",
+  "sek": 3.0,
+  "zeigt": "Metallschild klappt auf: bis ≈ 0,5 mm – oben dünner (beispiel)",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "409",
+  "szene": "plate"
+ },
+ {
+  "satz": "Von oben gesehen ist der Kolben leicht oval. Und von der Seite leicht bauchig, wie ein Fass.",
+  "sek": 3.3,
+  "zeigt": "Draufsicht: Kolben leicht oval, Kreis zum Vergleich",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "410",
+  "szene": "oval3d/draufsicht"
+ },
+ {
+  "satz": "Von oben gesehen ist der Kolben leicht oval. Und von der Seite leicht bauchig, wie ein Fass.",
+  "sek": 3.3,
+  "zeigt": "Seitenansicht leicht bauchig wie ein Fass",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "410",
+  "szene": "profil/fass"
+ },
+ {
+  "satz": "Auf den Tausendstel Millimeter genau gefertigt.",
+  "sek": 4.5,
+  "zeigt": "Messuhr-Zeiger schlägt aus, Frage: Warum?",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "frage:warum",
+  "kapitel": 4,
+  "block": "411",
+  "szene": "messuhr/kalt2"
+ },
+ {
+  "satz": "Und trotzdem nicht rund. Warum?",
+  "sek": 4.5,
+  "zeigt": "Laser brennt „WARUM?“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 4,
+  "block": "411",
+  "szene": "laser"
+ },
+ {
+  "satz": "Erinnerst du dich an den Satz von vorhin? Aluminium dehnt sich bei Hitze fast doppelt so stark aus wie Stahl.",
+  "sek": 3.25,
+  "zeigt": "Die Stäbe wachsen erneut, Gravur: Aluminium fast 2× Stahl",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:dehnung",
+  "kapitel": 5,
+  "block": "501",
+  "szene": "dehnung/b"
+ },
+ {
+  "satz": "Erinnerst du dich an den Satz von vorhin? Aluminium dehnt sich bei Hitze fast doppelt so stark aus wie Stahl.",
+  "sek": 3.25,
+  "zeigt": "Laser brennt „ALU FAST 2 × STAHL“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "501",
+  "szene": "laser"
+ },
+ {
+  "satz": "Rechnen wir das einmal durch. Ein Kolben mit 86 Millimetern Durchmesser, der sich um 200 Grad erwärmt, wächst um rund 0,3 Millimeter.",
+  "sek": 4.41,
+  "zeigt": "Formel graviert: 86 mm × 200 K × Ausdehnung = rund 0,3 mm",
+  "animation": "Physik-Formel graviert",
+  "inhalt": [
+   "zahl",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "502",
+  "szene": "2d/formel"
+ },
+ {
+  "satz": "Rechnen wir das einmal durch. Ein Kolben mit 86 Millimetern Durchmesser, der sich um 200 Grad erwärmt, wächst um rund 0,3 Millimeter.",
+  "sek": 2.94,
+  "zeigt": "Gravur ergänzt den Faktor 20·10⁻⁶ pro Kelvin",
+  "animation": "Physik-Formel graviert",
+  "inhalt": [
+   "zahl",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "502",
+  "szene": "2d"
+ },
+ {
+  "satz": "Rechnen wir das einmal durch. Ein Kolben mit 86 Millimetern Durchmesser, der sich um 200 Grad erwärmt, wächst um rund 0,3 Millimeter.",
+  "sek": 2.45,
+  "zeigt": "Ergebnis graviert: rund 0,34 mm",
+  "animation": "Physik-Formel graviert",
+  "inhalt": [
+   "zahl",
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "502",
+  "szene": "2d"
+ },
+ {
+  "satz": "Das klingt nach wenig. Aber zwischen Kolben und Zylinderwand ist beim Benziner oft nur ein Spalt von 0,03 bis 0,04 Millimetern.",
+  "sek": 4.08,
+  "zeigt": "Makro in den Spalt zwischen Kolben und Zylinderwand, Maß 0,03 bis 0,04 mm",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "503",
+  "szene": "2d/spalt"
+ },
+ {
+  "satz": "Das klingt nach wenig. Aber zwischen Kolben und Zylinderwand ist beim Benziner oft nur ein Spalt von 0,03 bis 0,04 Millimetern.",
+  "sek": 4.99,
+  "zeigt": "Metallschild klappt auf: 0,03–0,04 mm – spiel kolben–zylinder (ø)",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "503",
+  "szene": "plate"
+ },
+ {
+  "satz": "Der Kolben würde also um ein Vielfaches mehr wachsen, als Platz da ist.",
+  "sek": 5.11,
+  "zeigt": "Träger 0,34 mm gegen 0,035 mm",
+  "animation": "Stahlträger-Diagramm",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "504",
+  "szene": "2d/balken"
+ },
+ {
+  "satz": "Was dann passiert, hat einen eigenen Namen: Kolbenfresser.",
+  "sek": 3.04,
+  "zeigt": "Kolben glüht, frisst sich fest, Funken, Riefen, Motor blockiert",
+  "animation": "Fehler-Szenario",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:zerstoeren",
+  "kapitel": 5,
+  "block": "505",
+  "szene": "fresser/a"
+ },
+ {
+  "satz": "Der Ölfilm reißt, Aluminium reibt auf der Zylinderwand, es entstehen tiefe Riefen.",
+  "sek": 3.65,
+  "zeigt": "Laser brennt „KOLBENFRESSER“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "505",
+  "szene": "laser"
+ },
+ {
+  "satz": "Im schlimmsten Fall blockiert der Motor.",
+  "sek": 2.43,
+  "zeigt": "Funken an der Zylinderwand",
+  "animation": "Funken",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "505",
+  "szene": "funken"
+ },
+ {
+  "satz": "Im schlimmsten Fall blockiert der Motor.",
+  "sek": 3.04,
+  "zeigt": "Kolben blockiert, Kamera ruckt",
+  "animation": "Schlag-Ruck",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "505",
+  "szene": "ruck"
+ },
+ {
+  "satz": "Aber warum dann ausgerechnet oval? Weil sich der Kolben nicht überall gleich ausdehnt.",
+  "sek": 5.99,
+  "zeigt": "Kolben dreht sich und zeigt seine Unterseite",
+  "animation": "Explosionsansicht",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "frage:oval",
+  "kapitel": 5,
+  "block": "506",
+  "szene": "unten/dreh"
+ },
+ {
+  "satz": "Schau dir die Unterseite an. Rund um die Bolzenbohrung sitzt besonders viel Material:",
+  "sek": 3.98,
+  "zeigt": "Bolzenaugen leuchten orange, Wärme breitet sich dort stärker aus",
+  "animation": "Kraftfluss",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "507",
+  "szene": "unten/augen"
+ },
+ {
+  "satz": "die Bolzenaugen. Mehr Material heißt: mehr Ausdehnung.",
+  "sek": 5.96,
+  "zeigt": "Linie zum Teil, Etikett „BOLZENAUGEN“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "507",
+  "szene": "call"
+ },
+ {
+  "satz": "Also wird der Kolben in Richtung des Bolzens etwas schmaler gefertigt.",
+  "sek": 1.91,
+  "zeigt": "Draufsicht: ovaler Kolben erwärmt sich, wächst in Bolzenrichtung und wird rund",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "erklaerung",
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:oval",
+  "kapitel": 5,
+  "block": "508",
+  "szene": "oval3d/heiss"
+ },
+ {
+  "satz": "Wird er heiß, wächst er genau dort an dem stärksten.",
+  "sek": 4.76,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: BOLZENRICHTUNG",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "508",
+  "szene": "dim"
+ },
+ {
+  "satz": "Und wird rund.",
+  "sek": 2.86,
+  "zeigt": "Metallschild klappt auf: RUND – bei betriebstemperatur",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "508",
+  "szene": "plate"
+ },
+ {
+  "satz": "Und warum oben schmaler als unten? Weil oben die Verbrennung stattfindet.",
+  "sek": 4.0,
+  "zeigt": "Seitenansicht: Boden glüht, oberer Teil wächst, Profil wird gerade",
+  "animation": "Glühen und Abkühlen",
+  "inhalt": [
+   "erklaerung",
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:warum",
+  "kapitel": 5,
+  "block": "509",
+  "szene": "konus3d/heiss"
+ },
+ {
+  "satz": "Der Kolbenboden wird viel heißer als das untere Ende des Schafts.",
+  "sek": 4.57,
+  "zeigt": "Laser brennt „OBEN AM HEISSESTEN“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "509",
+  "szene": "laser"
+ },
+ {
+  "satz": "Also wächst er oben an dem meisten.",
+  "sek": 2.86,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: JETZT GERADE",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "509",
+  "szene": "dim"
+ },
+ {
+  "satz": "Der kalte Kolben ist also eine Art Vorhersage. Er ist genau so schief, dass er erst im Betrieb perfekt wird.",
+  "sek": 3.87,
+  "zeigt": "Warmer Kolben unter der Messuhr, der Zeiger steht still: rund",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:rund",
+  "kapitel": 5,
+  "block": "511",
+  "szene": "messuhr/heiss"
+ },
+ {
+  "satz": "Rund und gerade, genau bei Betriebstemperatur.",
+  "sek": 4.42,
+  "zeigt": "Linie zum Teil, Etikett „ZEIGER STEHT STILL“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "511",
+  "szene": "call"
+ },
+ {
+  "satz": "Rund und gerade, genau bei Betriebstemperatur.",
+  "sek": 2.76,
+  "zeigt": "Metallschild klappt auf: RUND – warm gemessen",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "511",
+  "szene": "plate"
+ },
+ {
+  "satz": "Fertig ist der Kolben damit aber noch nicht. Denn eine Sache fehlt noch.",
+  "sek": 6.09,
+  "zeigt": "Im Halbdunkel senkt sich ein Rakel, Schicht noch nicht zu sehen",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "gefuehl"
+  ],
+  "genauigkeit": "stimmung",
+  "neugier": "frage:schicht",
+  "kapitel": 5,
+  "block": "513",
+  "szene": "siebdruck/teaser"
+ },
+ {
+  "satz": "Und sie ist manchmal nur ein Tausendstel Millimeter dick.",
+  "sek": 4.99,
+  "zeigt": "Langsamer Zoom ins Halbdunkel",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 5,
+  "block": "513",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Auf den Schaft kommt eine Gleitschicht. Bei vielen Kolben wird sie im Siebdruck aufgetragen, wie das Motiv auf einem T-Shirt.",
+  "sek": 3.86,
+  "zeigt": "Rakel streicht über das Sieb, graue Gleitschicht erscheint auf dem Schaft",
+  "animation": "Werkzeugbahn",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:schicht",
+  "kapitel": 6,
+  "block": "601",
+  "szene": "siebdruck/a"
+ },
+ {
+  "satz": "Auf den Schaft kommt eine Gleitschicht. Bei vielen Kolben wird sie im Siebdruck aufgetragen, wie das Motiv auf einem T-Shirt.",
+  "sek": 3.86,
+  "zeigt": "Linie zum Teil, Etikett „GLEITSCHICHT“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "601",
+  "szene": "call"
+ },
+ {
+  "satz": "Sie enthält Graphit und ist 0,01 bis 0,04 Millimeter dick. Andere Kolben bekommen eine Zinnschicht von nur rund einem Tausendstel.",
+  "sek": 4.64,
+  "zeigt": "Makro: Schichtdicke 10 bis 40 µm, Zinn 1 µm, im Vergleich",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "602",
+  "szene": "2d/schicht"
+ },
+ {
+  "satz": "Sie enthält Graphit und ist 0,01 bis 0,04 Millimeter dick. Andere Kolben bekommen eine Zinnschicht von nur rund einem Tausendstel.",
+  "sek": 4.64,
+  "zeigt": "Zweite, hauchdünne Zinnschicht 0,001 mm daneben",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "602",
+  "szene": "2d"
+ },
+ {
+  "satz": "Zum Schluss wird jeder Kolben vermessen.",
+  "sek": 2.42,
+  "zeigt": "Messtaster tastet den Kolben ab, Maßlinien, alle Werte grün",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "frage:leistung",
+  "kapitel": 6,
+  "block": "604",
+  "szene": "messen/a"
+ },
+ {
+  "satz": "Durchmesser und Form, auf wenige Tausendstel Millimeter genau.",
+  "sek": 2.42,
+  "zeigt": "Technische Maßlinie zeichnet sich ans Teil: Ø PRÜFEN",
+  "animation": "Bemaßung",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "604",
+  "szene": "dim"
+ },
+ {
+  "satz": "Durchmesser und Form, auf wenige Tausendstel Millimeter genau.",
+  "sek": 2.07,
+  "zeigt": "Metallschild klappt auf: ✓ IN TOLERANZ – durchmesser und form",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "604",
+  "szene": "plate"
+ },
+ {
+  "satz": "Dann kommen Ringe, Bolzen und Sicherungsringe dazu. Und aus einem Klumpen geschmolzenem Aluminium ist das Herz eines Motors geworden.",
+  "sek": 5.16,
+  "zeigt": "Ringe, Bolzen und Sicherungsringe fliegen an den Kolben und rasten ein",
+  "animation": "Explosionsansicht",
+  "inhalt": [
+   "geschehen"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "605",
+  "szene": "explode/zu"
+ },
+ {
+  "satz": "Dann kommen Ringe, Bolzen und Sicherungsringe dazu. Und aus einem Klumpen geschmolzenem Aluminium ist das Herz eines Motors geworden.",
+  "sek": 3.44,
+  "zeigt": "Zoom beim Einrasten der Teile",
+  "animation": "Makro-Zoom",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "605",
+  "szene": "zoom"
+ },
+ {
+  "satz": "Was dieser Kolben leistet, ist kaum vorstellbar.",
+  "sek": 2.3,
+  "zeigt": "Kurbelwelle dreht, Zähler 300 Millionen Umdrehungen",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "606",
+  "szene": "motor/laeuft2"
+ },
+ {
+  "satz": "Bei 200000 Kilometern dreht sich die Kurbelwelle rund drei100 Millionen Mal.",
+  "sek": 6.91,
+  "zeigt": "Zähler rattert hoch bis 300,000,000 umdrehungen",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "606",
+  "szene": "count"
+ },
+ {
+  "satz": "Der Kolben macht dabei rund sechs100 Millionen Hübe.",
+  "sek": 2.71,
+  "zeigt": "Orange Linie läuft einmal um die Erde und weiter, 50.000 km, 600 Mio. Hübe",
+  "animation": "Größenvergleich",
+  "inhalt": [
+   "zahl",
+   "vergleich"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:leistung",
+  "kapitel": 6,
+  "block": "607",
+  "szene": "erde/a"
+ },
+ {
+  "satz": "Zusammengerechnet legt er im Zylinder etwa 50000 Kilometer zurück.",
+  "sek": 4.74,
+  "zeigt": "Metallschild klappt auf: ≈ 600 MIO. – hübe",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "607",
+  "szene": "plate"
+ },
+ {
+  "satz": "Mehr als einmal um die ganze Erde. Ohne den Zylinder je zu verlassen.",
+  "sek": 4.06,
+  "zeigt": "Zähler rattert hoch bis 50,000 km ≈ weg im zylinder",
+  "animation": "Taktuhr",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "607",
+  "szene": "count"
+ },
+ {
+  "satz": "Mehr als einmal um die ganze Erde. Ohne den Zylinder je zu verlassen.",
+  "sek": 2.03,
+  "zeigt": "Linie zum Teil, Etikett „> 1 × UM DIE ERDE“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "607",
+  "szene": "call"
+ },
+ {
+  "satz": "Seit 2014 baut Mahle in Rottweil auch Kolben aus Stahl für Dieselmotoren in Autos.",
+  "sek": 2.41,
+  "zeigt": "Stahlkolben dreht sich ins Licht, Laser graviert 2014 Rottweil, minus 3 bis 5 Prozent",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "zeit",
+   "ort",
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "608",
+  "szene": "stahl/a"
+ },
+ {
+  "satz": "Sie halten noch höhere Drücke aus und sparen in Tests 3 bis 5 Prozent Kraftstoff.",
+  "sek": 4.22,
+  "zeigt": "Laser brennt „2014 · ROTTWEIL“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "608",
+  "szene": "laser"
+ },
+ {
+  "satz": "Sie halten noch höhere Drücke aus und sparen in Tests 3 bis 5 Prozent Kraftstoff.",
+  "sek": 3.01,
+  "zeigt": "Linie zum Teil, Etikett „STAHL“ klappt auf",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "608",
+  "szene": "call"
+ },
+ {
+  "satz": "Sie halten noch höhere Drücke aus und sparen in Tests 3 bis 5 Prozent Kraftstoff.",
+  "sek": 2.41,
+  "zeigt": "Metallschild klappt auf: – 3 bis 5 % – kraftstoff (prüfstand)",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "608",
+  "szene": "plate"
+ },
+ {
+  "satz": "Zweihundert Vollbremsungen pro Sekunde.",
+  "sek": 1.31,
+  "zeigt": "Motor läuft, die Zahlen 200, Tonnen, Grad blitzen als Typenschilder auf",
+  "animation": "Match-Cut",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "antwort:warum_schief",
+  "kapitel": 6,
+  "block": "610",
+  "szene": "motor/finale"
+ },
+ {
+  "satz": "Tonnen an Druck.",
+  "sek": 2.83,
+  "zeigt": "Metallschild klappt auf: 200 / s – vollbremsungen",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "610",
+  "szene": "plate"
+ },
+ {
+  "satz": "Hunderte Grad Hitze. Und er übersteht das nur, weil er absichtlich schief gebaut wurde.",
+  "sek": 2.61,
+  "zeigt": "Metallschild klappt auf: bis 12 t – kraft",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "610",
+  "szene": "plate"
+ },
+ {
+  "satz": "Hunderte Grad Hitze. Und er übersteht das nur, weil er absichtlich schief gebaut wurde.",
+  "sek": 2.5,
+  "zeigt": "Metallschild klappt auf: > 300 °C – hitze",
+  "animation": "Typenschild",
+  "inhalt": [
+   "zahl"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "610",
+  "szene": "plate"
+ },
+ {
+  "satz": "Hunderte Grad Hitze. Und er übersteht das nur, weil er absichtlich schief gebaut wurde.",
+  "sek": 1.63,
+  "zeigt": "Laser brennt „ABSICHTLICH SCHIEF“ ins Metall, Funken an der Spitze",
+  "animation": "Laser-Gravur",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 6,
+  "block": "610",
+  "szene": "laser"
+ },
+ {
+  "satz": "Welches Bauteil sollen wir als Nächstes auseinandernehmen?",
+  "sek": 2.5,
+  "zeigt": "Endkarte: Kommentar-Feld schreibt sich, Kolben dreht im Hintergrund",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 7,
+  "block": "e1",
+  "szene": "endkarte/a"
+ },
+ {
+  "satz": "Schreib es in die Kommentare.",
+  "sek": 2.5,
+  "zeigt": "Kommentar-Feld schreibt die Frage Buchstabe für Buchstabe",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 7,
+  "block": "e1",
+  "szene": "call"
+ },
+ {
+  "satz": "Abonniere Meisterwerk und aktiviere die Glocke, damit du kein Video verpasst.",
+  "sek": 4.08,
+  "zeigt": "Abonnieren-Knopf und wackelnde Glocke",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "schema",
+  "neugier": "",
+  "kapitel": 7,
+  "block": "e2",
+  "szene": "endkarte/b"
+ },
+ {
+  "satz": "Abonniere Meisterwerk und aktiviere die Glocke, damit du kein Video verpasst.",
+  "sek": 4.08,
+  "zeigt": "Glocke wackelt, Etikett Glocke an",
+  "animation": "Callout",
+  "inhalt": [
+   "erklaerung"
+  ],
+  "genauigkeit": "exakt",
+  "neugier": "",
+  "kapitel": 7,
+  "block": "e2",
+  "szene": "call"
+ }
+]

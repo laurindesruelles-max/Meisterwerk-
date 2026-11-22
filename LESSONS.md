@@ -43,6 +43,7 @@ Nische: „Wie die Dinge wirklich gebaut werden“ – Fertigung, Maschinen, Meg
 |---|---|---|---|---|
 | 001 | Ohne diese deutsche Erfindung würde die Welt stillstehen (Kugellager) | 15.11.2026 (f3e_nM6sLgk) | (offen) | Pilot. Sounds mehrfach getauscht (Kamera-Klick), Stimme auf elevenlabs_v4 gewechselt, Thumbnail-Stil auf dunkel/dramatisch geändert, Endkarte mit Kommentar + Glocke ergänzt. |
 | 002 | Warum Europa für 11,7 Milliarden ein Loch durch die Alpen bohrt (Brenner-Basistunnel) | geplant 18.11.2026 18:00 (BugCEN8HKO0) | (offen) | Megaprojekt-Format, 11:05. Laurin wählte Titel 4 (vidIQ 76, nicht den Top-Score 82) und Thumbnail 3 „11,7 MRD. € / FÜR EIN LOCH?!“ – Geld-Schockzahl + Frage schlägt Längenangabe. |
+| 004 | Warum ist ein Kolben nicht rund? (Titel-Vorschlag, Laurin wählt) | Entwurf für 24.11.2026 18:00 | (offen) | „So entsteht“, 10:04, Thema 1 ohne Antwort von Laurin (Fallback nach 2 h). Mischform: 72 Blender-Shots exakt in Shot-Länge (12 fps → 24 fps), Overlays Typenschild/Laser-Gravur/Bemaßung/Callout/Taktuhr, Zahnrad-Kapitelmarken, 2D-Stahlträger-Diagramme. earshot 23/23 launch-grade, Gemini Ton PREMIUM. |
 - Musik (Laurin 17.11.2026): KEINE neuen Tracks pro Video erzeugen – nur die feste Bibliothek in assets/music nutzen. Neue Tracks nur auf ausdrücklichen Wunsch (kostet Credits).
 - music_tension aus der Bibliothek gelöscht (Laurin 17.11.2026: zu anstrengend) – nicht mehr verwenden.
 - BEWEGUNG statt Standbild (Laurin 17.11.2026): In Video 001 waren am Anfang die Flugzeuge nur Standbilder. Ab jetzt muss sich alles,
@@ -87,3 +88,13 @@ Referenz: Wissenswert „Wie eine Spionin den größten CEO der Welt ruinierte�
 - **Kurze echte Clips** (2–3 s, höchstens 1 pro Minute) zwischen den Blender-Szenen: echte Werkhalle, Funken, Kran – danach Match-Cut in die 3D-Ansicht. Nur Pixabay (`stock.py`-Muster aus Goldsmith/Unterbau, Schlüssel zur Laufzeit) oder Public Domain, ohne Marken/Logos. 3D bleibt der Kern.
 - **Kaltstart als Szene mit Datum + Ort** (eingetippt mit Tastatur-Sound), dann Eskalationstreppe und 3-teiliges Versprechen.
 - **Rahmen:** Das erste Bild kommt am Ende verändert zurück (z. B. fertiges Bauwerk statt Baustelle).
+
+## Produktion (Erfahrungswerte 22.11.2026, Video 004 Kolben)
+- Rechenzeit: ~5.900 Bilder 3D bei 960×540 auf 2 Kernen ≈ 8 h. Hallen-Szenen (Fensterband, DOF) und Glas/Transparenz kosten 7–10 s/Bild, dunkle Studio-Szenen 2–4 s. Samples 5–7 + Denoiser (prefilter FAST), max_bounces 3, keine Kaustiken reichen. Hallen nur, wo der Ort zählt.
+- Ablauf, der funktioniert hat: Skript → Faktencheck-Agent VOR dem Einsprechen → Stimme → timeline.json → shots.py (Block → Shots mit Anteil) + beats.py (Overlay-Ereignisse) → bilddrehbuch.json automatisch daraus (gen_bilddrehbuch.py) → render_queue (idempotent, .done) → watch.py komponiert Teile, sobald ihre Shots fertig sind.
+- Bild-Drehbuch: ≥ 12 Ereignisse/Min schafft man nur mit Overlay-Ereignissen (Typenschild, Laser, Maßlinie, Callout, Taktuhr) zusätzlich zu den Schnitten. Prüfskript liest „am“ als Uhrzeit (a.m.) und „6.000“ als Uhrzeit → im Drehbuch-Satz „an dem“ und Zahlen ohne Tausenderpunkt.
+- earshot „loudest 3 s zu niedrig“ (major) bei durchgehender Stimme: Kapitelkarten als Musik-Akzent ohne Stimme (+13 dB) + eigener Treffer-Bus (−6 LU) lösen es → 23/23.
+- Sound-Casting mit Gemini direkt (generateContent, gemini-3-flash-preview): von 9 Freesound-Kandidaten nur 5 PREMIUM; Motor/Förderband/Wasserstrahl/Bohren im 2. Durchgang ersetzt.
+- Zweiter Faktencheck NACH dem Schnitt (nur Einblendungen) fand 8 Fehler, die im Sprechtext nicht vorkamen (z. B. „Ø 86,000“ täuscht Messwert vor, „12 t Druck“ statt Kraft, „−25 °C“ statt K). Einblendungen immer separat prüfen.
+- 3D-Szenen, die nicht funktionierten: Makro-Spalt (Licht durch 0,04-mm-Spalt unsichtbar) → als 2D-Makro ersetzt; Thumbnail-Kameras zu nah → Motiv ganz zeigen, Glut-Emission ≤ 1 (sonst Pfirsich-Ton in AgX).
+- Effektdichte landete bei ~8/Min (Ziel ~6): Szenen-Geräusche an sichtbarer Bewegung + Typenschild-Klicks summieren sich; Callouts ohne Ton, Bemaßung höchstens alle 30 s.

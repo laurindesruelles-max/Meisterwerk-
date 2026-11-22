@@ -1,0 +1,270 @@
+[
+ {
+  "id": "h1",
+  "text": "Dieser Kolben wird zweihundertmal pro Sekunde gestoppt. Und wieder losgeschleudert."
+ },
+ {
+  "id": "h2",
+  "text": "Er ist das Herz jedes Verbrennungsmotors. Doch wer ihn genau nachmisst, entdeckt etwas Seltsames: Er ist nicht rund. Und er ist nicht gerade."
+ },
+ {
+  "id": "h3",
+  "text": "Nicht aus Schlamperei. Sondern mit voller Absicht, auf den Tausendstel Millimeter genau."
+ },
+ {
+  "id": "h4",
+  "text": "Warum baut der nach eigenen Angaben größte Kolbenhersteller der Welt jedes Jahr rund hundert Millionen Kolben, die schief sind?"
+ },
+ {
+  "id": "h5",
+  "text": "In den Umkehrpunkten wirkt auf ihn über zweitausendfache Erdbeschleunigung. Bei jeder Zündung drücken bis zu zwölf Tonnen auf seine Oberseite."
+ },
+ {
+  "id": "h6",
+  "text": "Wir schauen zu, wie aus flüssigem Aluminium ein Kolben wird. Und am Ende weißt du, warum ein perfekt runder Kolben deinen Motor zerstören würde."
+ },
+ {
+  "id": "101",
+  "text": "Um die seltsame Form zu verstehen, müssen wir zuerst sehen, was ein Kolben aushalten muss."
+ },
+ {
+  "id": "102",
+  "text": "Beim Beschleunigen dreht ein Motor schnell mal sechstausend Umdrehungen pro Minute."
+ },
+ {
+  "id": "103",
+  "text": "Dann läuft die Kurbelwelle hundertmal pro Sekunde im Kreis. Der Kolben hängt an ihr. Und er muss bei jeder Umdrehung zweimal komplett anhalten: ganz oben, und ganz unten."
+ },
+ {
+  "id": "104",
+  "text": "Das sind zweihundert Vollbremsungen pro Sekunde. Dazwischen erreicht er rund hundert Kilometer pro Stunde."
+ },
+ {
+  "id": "105",
+  "text": "Ein Kolben wiegt nur etwa zweihundert Gramm. Doch im oberen Umkehrpunkt zerrt er mit einer Gewichtskraft von rund vierhundert Kilogramm an seiner Pleuelstange."
+ },
+ {
+  "id": "106",
+  "text": "Und dann: die Zündung. Über dem Kolben verbrennt das Gemisch schlagartig. Das Gas wird kurzzeitig weit über zweitausend Grad heiß. Heißer, als Stahl zum Schmelzen braucht."
+ },
+ {
+  "id": "107",
+  "text": "Der Druck steigt im Benziner auf über hundertzwanzig bar, im Diesel auf über zweihundert. Auf einen Kolben dieser Größe drückt das mit sieben bis zwölf Tonnen."
+ },
+ {
+  "id": "108",
+  "text": "Der Kolbenboden selbst wird dabei an manchen Stellen über dreihundert Grad heiß."
+ },
+ {
+  "id": "109",
+  "text": "Und das hunderte Millionen Mal. Ein Kolben im Auto soll ein ganzes Motorleben halten, oft zweihunderttausend Kilometer und mehr."
+ },
+ {
+  "id": "110",
+  "text": "Welches Material übersteht so etwas? Die Antwort klingt zuerst wie ein Fehler: Aluminium. Ein Metall, das schon bei rund sechshundertsechzig Grad schmilzt."
+ },
+ {
+  "id": "201",
+  "text": "Früher waren Kolben aus Gusseisen oder Stahl. Schwer, aber robust."
+ },
+ {
+  "id": "202",
+  "text": "Neunzehnhundertdreizehn hatte ein junger Brite namens Walter Owen Bentley eine Idee. Angeblich inspiriert von einem Briefbeschwerer aus Aluminium."
+ },
+ {
+  "id": "203",
+  "text": "Er ließ für die Motoren seiner französischen Sportwagen Kolben aus Aluminium gießen. Und fuhr damit Rekorde."
+ },
+ {
+  "id": "204",
+  "text": "Der Vorteil ist gewaltig: Aluminium wiegt nur ein Drittel so viel wie Stahl. Und es leitet die Hitze rund dreimal so gut ab."
+ },
+ {
+  "id": "206",
+  "text": "In Deutschland machten zwei Brüder daraus ein Weltgeschäft. Am ersten Dezember neunzehnhundertzwanzig fing Hermann Mahle in einer kleinen Stuttgarter Versuchswerkstatt an. Zwei Jahre später kam sein Bruder Ernst dazu."
+ },
+ {
+  "id": "207",
+  "text": "Ab neunzehnhundertzweiundzwanzig spezialisierten sie sich auf Leichtmetallkolben. Heute fertigt Mahle nach eigenen Angaben rund hundert Millionen Kolben im Jahr."
+ },
+ {
+  "id": "208",
+  "text": "Reines Aluminium wäre allerdings zu weich. Deshalb kommt ein zweites Element in die Schmelze: Silizium. Rund zwölf Prozent."
+ },
+ {
+  "id": "209",
+  "text": "Silizium ist hart, verschleißfest, und es dehnt sich bei Hitze kaum aus. Dazu kommen Kupfer, Nickel und Magnesium, jeweils etwa ein Prozent."
+ },
+ {
+  "id": "210",
+  "text": "Doch selbst mit Silizium bleibt ein Problem. Aluminium dehnt sich bei Hitze fast doppelt so stark aus wie Stahl. Merk dir diesen Satz. Er ist der Schlüssel zum ganzen Rätsel."
+ },
+ {
+  "id": "301",
+  "text": "In der Gießerei werden Aluminiumbarren eingeschmolzen und bei rund achthundert Grad mit Silizium legiert."
+ },
+ {
+  "id": "302",
+  "text": "Die Form ist aus Stahl, eine sogenannte Kokille. Sie besteht aus mehreren Teilen, die sich wie ein Puzzle zusammenschieben."
+ },
+ {
+  "id": "303",
+  "text": "Bei Kolben mit Kühlkanal legt die Maschine vorher etwas Ungewöhnliches in die Form: einen Ring aus Salz."
+ },
+ {
+  "id": "304",
+  "text": "Bei Dieselkolben kommt noch ein zweiter Ring dazu, aus Gusseisen. Der Ringträger. Er wird vorher in flüssiges Aluminium getaucht, damit er später fest mit dem Kolben verwächst. Das Verfahren heißt Alfin."
+ },
+ {
+  "id": "305",
+  "text": "Dann fließt die Schmelze. Ein Automat gießt zwei Kolben auf einmal. Das Metall umschließt Salz und Eisen."
+ },
+ {
+  "id": "306",
+  "text": "Nach dem Erstarren öffnet sich die Form, und die Rohlinge werden getrennt."
+ },
+ {
+  "id": "307",
+  "text": "Und jetzt kommt der Trick mit dem Salz. Ein Hochdruck-Wasserstrahl spült es einfach heraus. Zurück bleibt ein Hohlraum rund um den Kolben: ein Kühlkanal."
+ },
+ {
+  "id": "308",
+  "text": "Später spritzt Motoröl durch diesen Kanal und kühlt den Kolben von innen. Das senkt die Temperatur am Kolbenboden und am obersten Ring um bis zu fünfundzwanzig Grad."
+ },
+ {
+  "id": "309",
+  "text": "Und der Eisenring? Er sitzt genau dort, wo später der oberste Kolbenring läuft. An der Stelle, die am meisten leidet."
+ },
+ {
+  "id": "310",
+  "text": "Der Rohling sieht jetzt schon aus wie ein Kolben. Aber er ist noch zu weich und viel zu grob. Das Entscheidende passiert erst an der Drehmaschine. Und dort macht das Werkzeug etwas, das auf den ersten Blick völlig falsch aussieht."
+ },
+ {
+  "id": "401",
+  "text": "Zuerst kommt der Rohling in den Ofen. Bei rund fünfhundert Grad lösen sich die Legierungselemente im Aluminium."
+ },
+ {
+  "id": "402",
+  "text": "Dann wird er in Wasser abgeschreckt. Zischend, in Sekunden."
+ },
+ {
+  "id": "403",
+  "text": "Danach ruht er stundenlang bei rund zweihundert Grad. Dabei bilden sich winzige Teilchen, die das Metall hart machen."
+ },
+ {
+  "id": "404",
+  "text": "Jetzt beginnt die Bearbeitung. Zuerst die Bohrung für den Kolbenbolzen, den Stahlstift zur Pleuelstange."
+ },
+ {
+  "id": "405",
+  "text": "Die Bohrung ist nur zwei bis fünf Tausendstel Millimeter größer als der Bolzen. Ein menschliches Haar ist rund zwanzigmal dicker."
+ },
+ {
+  "id": "406",
+  "text": "Dann dreht die Maschine die Nuten für die Kolbenringe ein. Drei schmale Rillen, ganz oben."
+ },
+ {
+  "id": "407",
+  "text": "Und dann kommt der seltsamste Schritt. Die Drehmaschine bearbeitet die Außenseite, den Schaft."
+ },
+ {
+  "id": "408",
+  "text": "Aber schau genau auf das Werkzeug. Bei jeder Umdrehung des Kolbens fährt es ein winziges Stück vor und zurück. Zweimal pro Umdrehung."
+ },
+ {
+  "id": "409",
+  "text": "Gleichzeitig dreht es den Kolben nach oben hin schmaler. Ganz oben, an den Ringen, ist er ein paar Zehntelmillimeter dünner als unten am Schaft."
+ },
+ {
+  "id": "410",
+  "text": "Von oben gesehen ist der Kolben leicht oval. Und von der Seite leicht bauchig, wie ein Fass."
+ },
+ {
+  "id": "411",
+  "text": "Auf den Tausendstel Millimeter genau gefertigt. Und trotzdem nicht rund. Warum?"
+ },
+ {
+  "id": "501",
+  "text": "Erinnerst du dich an den Satz von vorhin? Aluminium dehnt sich bei Hitze fast doppelt so stark aus wie Stahl."
+ },
+ {
+  "id": "502",
+  "text": "Rechnen wir das einmal durch. Ein Kolben mit sechsundachtzig Millimetern Durchmesser, der sich um zweihundert Grad erwärmt, wächst um rund ein Drittel Millimeter."
+ },
+ {
+  "id": "503",
+  "text": "Das klingt nach wenig. Aber zwischen Kolben und Zylinderwand ist beim Benziner oft nur ein Spalt von drei bis vier Hundertstel Millimetern."
+ },
+ {
+  "id": "504",
+  "text": "Der Kolben würde also um ein Vielfaches mehr wachsen, als Platz da ist."
+ },
+ {
+  "id": "505",
+  "text": "Was dann passiert, hat einen eigenen Namen: Kolbenfresser. Der Ölfilm reißt, Aluminium reibt auf der Zylinderwand, es entstehen tiefe Riefen. Im schlimmsten Fall blockiert der Motor."
+ },
+ {
+  "id": "506",
+  "text": "Aber warum dann ausgerechnet oval? Weil sich der Kolben nicht überall gleich ausdehnt."
+ },
+ {
+  "id": "507",
+  "text": "Schau dir die Unterseite an. Rund um die Bolzenbohrung sitzt besonders viel Material: die Bolzenaugen. Mehr Material heißt: mehr Ausdehnung."
+ },
+ {
+  "id": "508",
+  "text": "Also wird der Kolben in Richtung des Bolzens etwas schmaler gefertigt. Wird er heiß, wächst er genau dort am stärksten. Und wird rund."
+ },
+ {
+  "id": "509",
+  "text": "Und warum oben schmaler als unten? Weil oben die Verbrennung stattfindet. Der Kolbenboden wird viel heißer als das untere Ende des Schafts. Also wächst er oben am meisten."
+ },
+ {
+  "id": "511",
+  "text": "Der kalte Kolben ist also eine Art Vorhersage. Er ist genau so schief, dass er erst im Betrieb perfekt wird. Rund und gerade, genau bei Betriebstemperatur."
+ },
+ {
+  "id": "513",
+  "text": "Fertig ist der Kolben damit aber noch nicht. Denn eine Sache fehlt noch. Und sie ist manchmal nur ein Tausendstel Millimeter dick."
+ },
+ {
+  "id": "601",
+  "text": "Auf den Schaft kommt eine Gleitschicht. Bei vielen Kolben wird sie im Siebdruck aufgetragen, wie das Motiv auf einem T-Shirt."
+ },
+ {
+  "id": "602",
+  "text": "Sie enthält Graphit und ist zehn bis vierzig Tausendstel Millimeter dick. Andere Kolben bekommen eine Zinnschicht von nur rund einem Tausendstel."
+ },
+ {
+  "id": "604",
+  "text": "Zum Schluss wird jeder Kolben vermessen. Durchmesser und Form, auf wenige Tausendstel Millimeter genau."
+ },
+ {
+  "id": "605",
+  "text": "Dann kommen Ringe, Bolzen und Sicherungsringe dazu. Und aus einem Klumpen geschmolzenem Aluminium ist das Herz eines Motors geworden."
+ },
+ {
+  "id": "606",
+  "text": "Was dieser Kolben leistet, ist kaum vorstellbar. Bei zweihunderttausend Kilometern dreht sich die Kurbelwelle rund dreihundert Millionen Mal."
+ },
+ {
+  "id": "607",
+  "text": "Der Kolben macht dabei rund sechshundert Millionen Hübe. Zusammengerechnet legt er im Zylinder etwa fünfzigtausend Kilometer zurück. Mehr als einmal um die ganze Erde. Ohne den Zylinder je zu verlassen."
+ },
+ {
+  "id": "608",
+  "text": "Seit zweitausendvierzehn baut Mahle in Rottweil auch Kolben aus Stahl für Dieselmotoren in Autos. Sie halten noch höhere Drücke aus und sparen in Tests drei bis fünf Prozent Kraftstoff."
+ },
+ {
+  "id": "610",
+  "text": "Zweihundert Vollbremsungen pro Sekunde. Tonnen an Druck. Hunderte Grad Hitze. Und er übersteht das nur, weil er absichtlich schief gebaut wurde."
+ },
+ {
+  "id": "e1",
+  "text": "Welches Bauteil sollen wir als Nächstes auseinandernehmen? Schreib es in die Kommentare."
+ },
+ {
+  "id": "e2",
+  "text": "Abonniere Meisterwerk und aktiviere die Glocke, damit du kein Video verpasst."
+ }
+]
