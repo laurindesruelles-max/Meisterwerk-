@@ -80,3 +80,10 @@ Grundlage: Auswertung erfolgreicher Ausreißer-Videos in allen 5 Nischen (vidIQ)
 - Nie Effekte aus fremden Kanal-Ordnern nehmen; `reserve/` nur nach Rückfrage bei Laurin.
 
 - Musik (21.11.2026): 3 neue eigene Tracks (werkhalle_puls, praezision_ticken, aufbau_zeitraffer) – damit hat Meisterwerk 5 eigene Tracks. Alle drei von Gemini als PREMIUM/8 von 10 bewertet, nicht corporate, nicht episch. Unter der Stimme Höhen (Ticks) bzw. Mitten (Arpeggio) absenken. Details assets/music/MUSIK.md.
+
+## Erzähl-Bausteine nach Wissenswert-Vorbild (Laurin 22.11.2026, gilt ab dem nächsten Video)
+Referenz: Wissenswert „Wie eine Spionin den größten CEO der Welt ruinierte“ (372 Tsd. Aufrufe in 2 Tagen). Passend für Meisterwerk:
+- **Fun-Facts als Würze:** alle 2–3 Min. ein überraschendes, belegtes Detail (Rekord, Kuriosität, Herkunft eines Namens), als kurze 3D-Einblendung.
+- **Kurze echte Clips** (2–3 s, höchstens 1 pro Minute) zwischen den Blender-Szenen: echte Werkhalle, Funken, Kran – danach Match-Cut in die 3D-Ansicht. Nur Pixabay (`stock.py`-Muster aus Goldsmith/Unterbau, Schlüssel zur Laufzeit) oder Public Domain, ohne Marken/Logos. 3D bleibt der Kern.
+- **Kaltstart als Szene mit Datum + Ort** (eingetippt mit Tastatur-Sound), dann Eskalationstreppe und 3-teiliges Versprechen.
+- **Rahmen:** Das erste Bild kommt am Ende verändert zurück (z. B. fertiges Bauwerk statt Baustelle).
