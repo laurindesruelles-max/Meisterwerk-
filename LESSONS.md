@@ -100,3 +100,6 @@ Referenz: Wissenswert „Wie eine Spionin den größten CEO der Welt ruinierte�
 - Effektdichte landete bei ~8/Min (Ziel ~6): Szenen-Geräusche an sichtbarer Bewegung + Typenschild-Klicks summieren sich; Callouts ohne Ton, Bemaßung höchstens alle 30 s.
 
 - **2D-Motion-Graphics (23.11.2026):** Laurin will das Handwerk der ANOM-Stilprobe (viel 2D-Animation, Bildwechsel alle 2–4 s) in jedem Kanal – als Erweiterung im eigenen Stil, nichts überschreiben. Meisterwerk: `engine/motion_mw.py` (Laser-Gravur, Typenschild, Glut-Orange). Bisherige Regeln (3D-Werkhalle, echte Fakten mit Quelle, Schema-Hinweis) bleiben.
+
+## Lesbarkeit vor Tempo (Laurin 23.11.2026, gilt für alle Kanäle)
+Laurin (Feedback zu Unterbau 004): „Manchmal kamen zu viele Animationen hintereinander bzw. zu kurz, man konnte nicht hinterherkommen mit dem, was da stand.“ Regel steht in HANDWERK.md („Lesbarkeit vor Tempo“): Text/Zahl/Datum/Grafik mindestens 4 s, jede andere Einstellung mindestens 2,5 s, höchstens eine Einblendung gleichzeitig; kurze Sätze teilen sich eine Einstellung. engine/bilddrehbuch.py prüft das jetzt (Fehler unter 4 s bzw. 2,5 s).
