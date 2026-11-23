@@ -14,7 +14,8 @@ const feats: any[] = (feature(world, world.objects.countries) as any).features.f
 const byId = (id: string) => feats.find((d) => d.id === id);
 export const Icon: React.FC<{name: string; size?: number; color?: string}> = ({name, size = 90, color}) => {
   const st = {fill: "none", stroke: color || T.c.ink, strokeWidth: T.iconStroke, strokeLinecap: "round" as const, strokeLinejoin: "round" as const};
-  return <svg width={size} height={size} viewBox="0 0 100 100" style={T.iconFilter ? {filter: T.iconFilter} : undefined}>{(ICONS[name] || ICONS.doc)(st, st.stroke)}</svg>;
+  const set: any = (T as any).icons || {}; const fn = set[name] || ICONS[name] || set.doc || ICONS.doc;
+  return <svg width={size} height={size} viewBox="0 0 100 100" style={T.iconFilter ? {filter: T.iconFilter} : undefined}>{fn(st, st.stroke)}</svg>;
 };
 const Big: React.FC<{at: number; text: string; color?: string; size?: number}> = ({at, text, color, size = 120}) => {
   const sp = useSpring(at); const f = useCurrentFrame();
@@ -113,7 +114,7 @@ export const FlowC: React.FC<any> = ({label, steps, nodes, packet = "doc", branc
       {steps && <>
         <div style={{position: "absolute", left: 80, right: 80, top: 150, height: 6, background: T.c.track}}>
           <div style={{width: `${prog * 100}%`, height: "100%", background: T.c.accent, boxShadow: T.glow ? `0 0 12px ${T.c.accent}` : undefined}} /></div>
-        {steps.map((t: string, i: number) => <div key={i} style={{position: "absolute", top: 172, left: 80 + i * ((W - 160) / steps.length), fontFamily: T.font.body, fontWeight: 700, fontSize: 26,
+        {steps.map((t: string, i: number) => <div key={i} style={{position: "absolute", top: 172, left: 80 + i * ((W - 160) / steps.length), fontFamily: T.font.body, fontWeight: 700, fontSize: (T as any).stepSize || 26,
           color: prog >= i / steps.length ? T.c.accent : T.c.muted}}>{`0${i + 1}  ${t.toUpperCase()}`}</div>)}
       </>}
       <svg width={W} height={H} style={{position: "absolute"}}>
@@ -124,13 +125,13 @@ export const FlowC: React.FC<any> = ({label, steps, nodes, packet = "doc", branc
       </svg>
       {nodes.map((nd: any, i: number) => (
         <div key={i} style={{position: "absolute", left: xs[i] - 130, top: y - 110, width: 260, textAlign: "center"}}>
-          <Pop at={FLOW_T.node(i)}><div style={{width: 170, height: 170, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "center", ...T.node}}><Icon name={nd.icon} size={100} color={T.c.nodeInk} /></div>
+          <Pop at={FLOW_T.node(i)}>{(T as any).Node ? <div style={{margin: "0 auto", width: 220}}>{React.createElement((T as any).Node, {hot: false}, <Icon name={nd.icon} size={100} color={T.c.nodeInk} />)}</div> : <div style={{width: 170, height: 170, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "center", ...T.node}}><Icon name={nd.icon} size={100} color={T.c.nodeInk} /></div>}
             <div style={{fontFamily: T.font.body, fontWeight: 700, fontSize: 30, color: T.c.ink, marginTop: 16}}>{nd.label}</div></Pop>
         </div>))}
       {branch && <div style={{position: "absolute", left: bx - 130, top: by - 110, width: 260, textAlign: "center"}}>
-        <Pop at={bt + 0.5}><div style={{width: 170, height: 170, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "center", ...T.nodeHot}}><Icon name={branch.icon} size={100} color={T.c.hot} /></div>
+        <Pop at={bt + 0.5}>{(T as any).Node ? <div style={{margin: "0 auto", width: 220}}>{React.createElement((T as any).Node, {hot: true}, <Icon name={branch.icon} size={100} color={T.c.hot} />)}</div> : <div style={{width: 170, height: 170, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "center", ...T.nodeHot}}><Icon name={branch.icon} size={100} color={T.c.hot} /></div>}
           <div style={{fontFamily: T.font.body, fontWeight: 700, fontSize: 30, color: T.c.ink, marginTop: 16}}>{branch.label}</div></Pop></div>}
-      {branch && <div style={{position: "absolute", left: bx + 150, top: by - 60}}><Big at={bt + 0.7} text={branch.text} color={T.c.hot} size={70} /></div>}
+      {branch && <div style={{position: "absolute", top: by - 60, ...(bx > W * 0.55 ? {right: W - bx + 150, textAlign: "right"} : {left: bx + 150})}}><Big at={bt + 0.7} text={branch.text} color={T.c.hot} size={70} /></div>}
     </T.Bg>
   );
 };
@@ -152,7 +153,7 @@ export const FlipC: React.FC<any> = ({teaser, front, back, at = 2.4}) => {
               <div style={{fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: 96, color: T.c.cardInk, textAlign: "center", lineHeight: 1, textTransform: "uppercase"}}>{front.title}</div>
             </div>
             <div style={{position: "absolute", inset: 0, backfaceVisibility: "hidden", transform: "rotateY(180deg)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 22, ...T.cardHot}}>
-              <div style={{fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: back.title.length > 8 ? 116 : 190, color: T.c.cardHotInk, lineHeight: 1, textAlign: "center", textTransform: "uppercase"}}>{back.title}</div>
+              <div style={{fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: back.title.length > 5 ? Math.min(130, Math.floor(1000 / back.title.length)) : 190, color: T.c.cardHotInk, lineHeight: 1, textAlign: "center", textTransform: "uppercase"}}>{back.title}</div>
               <div style={{width: 320, height: 5, background: T.c.hot}} />
               {back.sub && <div style={{fontFamily: T.font.body, fontWeight: 700, fontSize: 34, color: T.c.cardHotInk, textAlign: "center", padding: "0 30px"}}>{back.sub}</div>}
             </div>
@@ -176,7 +177,7 @@ export const CounterC: React.FC<any> = ({label, value, prefix, suffix, dec, capt
       })}
       <T.Label text={label} />
       <AbsoluteFill style={{alignItems: "center", justifyContent: "center"}}>
-        <div style={{...T.panel, textAlign: "center", padding: "26px 70px"}}>
+        <div style={{...T.panel, textAlign: "center", padding: (T as any).counterPad || "26px 70px"}}>
           <div style={{fontFamily: T.font.num, fontWeight: T.headWeight, fontSize: 200, color: T.c.panelInk, lineHeight: 1}}>{N(value, 0.1, 1.6, {prefix, suffix, dec})}</div>
           <Pop at={0.9}><div style={{fontFamily: T.font.body, fontWeight: 700, fontSize: 46, color: T.c.panelAccent, letterSpacing: 3, marginTop: 6}}>{caption}</div></Pop>
         </div>
@@ -195,9 +196,9 @@ export const GridC: React.FC<any> = ({label, n = 60, icon = "person", value, suf
         <div style={{display: "grid", gridTemplateColumns: "repeat(10, 66px)", gap: 14}}>
           {Array.from({length: n}).map((_, i) => {
             const at = s(T.gridRows ? 0.15 + Math.floor(i / 10) * 0.22 + (i % 10) * 0.025 : 0.15 + random(`o${i}`) * 1.3);
-            const p = interpolate(f, [at, at + 7], [0, 1], {...clamp, easing: ease}); const h = hot > 0 && i % hot === 3;
+            const p = interpolate(f, [at, at + 7], [0, 1], {...clamp, easing: ease}); const h = hot > 0 && i % hot === Math.min(3, hot - 1);
             return <div key={i} style={{width: 66, height: 66, transform: `scale(${p}) rotate(${(random(`q${i}`) - 0.5) * T.tileJitter}deg)`, opacity: p,
-              display: "flex", alignItems: "center", justifyContent: "center", ...(h ? T.tileHot : T.tile)}}><Icon name={icon} size={50} color={h ? T.c.hot : T.c.tileInk} /></div>;
+              display: "flex", alignItems: "center", justifyContent: "center", ...((T as any).Tile ? {} : (h ? T.tileHot : T.tile))}}>{(T as any).Tile ? React.createElement((T as any).Tile, {hot: h, icon, i}) : <Icon name={icon} size={50} color={h ? T.c.hot : T.c.tileInk} />}</div>;
           })}
         </div>
         <div>
@@ -218,15 +219,15 @@ export const PhoneC: React.FC<any> = ({label, app = "NACHRICHTEN", messages, quo
       <AbsoluteFill style={{alignItems: "center", justifyContent: "center", flexDirection: "row", gap: 110}}>
         <div style={{perspective: 1600}}>
           <div style={{width: 430, height: 860, borderRadius: 60, background: "linear-gradient(145deg,#2d2d30,#0b0b0d)", padding: 14, transform: `rotateY(${tilt}deg)`,
-            boxShadow: "0 40px 120px rgba(0,0,0,0.6), inset 0 0 0 2px #45454a"}}>
-            <div style={{width: "100%", height: "100%", borderRadius: 48, background: "#0b0b0c", overflow: "hidden"}}>
-              <div style={{padding: "64px 28px 18px", fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 28, color: "#eee", borderBottom: "1px solid #2a2a2a"}}>{app}</div>
+            boxShadow: "0 40px 120px rgba(0,0,0,0.6), inset 0 0 0 2px #45454a", ...((T as any).phoneFrame || {})}}>
+            <div style={{width: "100%", height: "100%", borderRadius: 48, background: "#0b0b0c", overflow: "hidden", ...((T as any).phoneScreen || {})}}>
+              <div style={{padding: "64px 28px 18px", fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 28, color: "#eee", borderBottom: "1px solid #2a2a2a", ...((T as any).phoneHead || {})}}>{app}</div>
               <div style={{display: "flex", flexDirection: "column", gap: 16, padding: "26px 22px"}}>
                 {messages.map(([t, me]: [string, boolean], i: number) => {
                   const sp = useSpring(0.15 + i * 0.4);
                   if (f < s(0.15 + i * 0.4)) return <div key={i} />;
                   return <div key={i} style={{alignSelf: me ? "flex-end" : "flex-start", maxWidth: 300, padding: "14px 20px", borderRadius: 22, fontFamily: "Inter, sans-serif", fontSize: 24,
-                    background: me ? T.c.bubble : "#26262a", color: "#f2f2f2", transform: `translateY(${(1 - sp) * 26}px)`, opacity: Math.min(1, sp * 2)}}>{t}</div>;
+                    background: me ? T.c.bubble : "#26262a", color: "#f2f2f2", ...((T as any).phoneBubble || {}), transform: `translateY(${(1 - sp) * 26}px)`, opacity: Math.min(1, sp * 2)}}>{t}</div>;
                 })}
               </div>
             </div>
@@ -268,7 +269,7 @@ export const StackC: React.FC<any> = ({label, cards, symbol = "?", question}) =>
       <T.Label text={label} />
       <AbsoluteFill style={{alignItems: "center", justifyContent: "center"}}>
         {cards.map(([t, sub]: [string, string], i: number) => {
-          const sp = useSpring(0.1 + i * 0.16);
+          const sp = useSpring(0.1 + i * ((T as any).stackStep || 0.16));
           return <div key={i} style={{position: "absolute", width: 560, height: 320, padding: 32, ...T.sheet,
             transform: `translate(${(i - m) * 48}px, ${(i - m) * -30 + (1 - sp) * 700}px) rotate(${(i - m) * 4}deg)`}}>
             <div style={{fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: 40, color: T.c.sheetInk}}>{t}</div>
@@ -276,7 +277,7 @@ export const StackC: React.FC<any> = ({label, cards, symbol = "?", question}) =>
             <div style={{marginTop: 26, height: 10, width: 420, background: T.c.sheetLine}} /><div style={{marginTop: 12, height: 10, width: 340, background: T.c.sheetLine}} />
           </div>;
         })}
-        <div style={{position: "absolute", top: 110, fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: 210, color: T.c.hot, transform: `translateY(${hy}px)`, opacity: f >= s(1.5) ? 1 : 0}}>{symbol}</div>
+        <div style={{position: "absolute", top: 110, fontFamily: T.font.head, fontWeight: T.headWeight, fontSize: 210, color: T.c.hot, transform: `translateY(${hy}px)`, opacity: f >= s(1.5) ? 1 : 0, ...((T as any).symbolStyle || {})}}>{symbol}</div>
       </AbsoluteFill>
       {question && <div style={{position: "absolute", left: 0, right: 0, bottom: 80, textAlign: "center"}}><T.Write text={question} at={0.6} style={{fontSize: 48, color: T.c.ink}} /></div>}
     </T.Bg>

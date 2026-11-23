@@ -88,20 +88,20 @@ def sounds(k, t0=0.0):
         if q.get("title"): ev += [(0.15, "text_click", 0.45, None)]
     elif c == "flow":
         n = len(q.get("nodes", []))
-        ev += [(0.1 + i * 0.15, "clink", 0.3, None) for i in range(n)] + [(0.6 + 0.75 * i, "whir", 0.18, 0.6) for i in range(max(0, n - 1))]
+        ev += [(0.1 + i * 0.15, "clink", 0.3, None) for i in range(n)]
         b = q.get("branch")
         if b:
             bt = 0.6 + 0.75 * (b["after"] + 0.5); ev += [(bt + 0.7, "thud", 0.7, None), (bt + 0.7, "sub_drop", 0.4, None)]
     elif c == "flip":
         at = q.get("at", 2.4)
         if q.get("teaser"): ev += _laser(0.25, q["teaser"])
-        ev += [(at - 0.6, "glitch", 0.35, None), (at - 0.05, "whoosh", 0.45, None), (at + 0.12, "thud", 0.9, None), (at + 0.12, "sub_drop", 0.6, None)]
+        ev += [(at - 0.05, "whoosh", 0.3, None), (at + 0.12, "thud", 0.9, None), (at + 0.12, "sub_drop", 0.6, None)]
     elif c == "counter":
         ev += _ticks(0.1, 1.6, 10) + [(0.9, "text_click", 0.55, None)]
     elif c == "grid":
         ev += [(0.15 + r * 0.22, "clink", 0.12, None) for r in range(6)] + [(1.6, "text_click", 0.5, None)]
     elif c == "bars":
-        ev += [(0.4 + i * 0.35, "lever", 0.35, None) for i in range(len(q.get("bars", [])))]
+        ev += [(0.4 + i * 0.35, "lever", 0.16, None) for i in range(len(q.get("bars", [])))]
         if q.get("title"): ev += [(0.1, "text_click", 0.45, None)]
     elif c == "stack":
         ev += [(0.1 + i * 0.16, "paper", 0.3, None) for i in range(len(q.get("cards", [])))] + [(1.5, "thud", 0.8, None)]

@@ -45,7 +45,7 @@ Weitere freigegebene Animationsarten für die Nische und die Bild-Drehbuch-Regel
 | Balken-Vergleich 2D (`motion` bars) | Stahl- gegen Glut-Balken | schneller Vergleich (ergänzt Stahlträger-Diagramm) | neu, ANOM-Wissen 23.11. |
 | Blaupausen-Stapel (`motion` stack) | Konstruktionszeichnungen stapeln sich, Frage wird graviert | Konstruktion, offene Frage | neu, ANOM-Wissen 23.11. |
 
-**Erweiterung 23.11.2026 (ANOM-Stilprobe):** Die `motion`-Bausteine kommen **zusätzlich** (nichts wird ersetzt, die 3D-Werkhalle bleibt die Welt). Laser-Gravur statt Tippen, Typenschilder, Glut-Orange. Doku: `engine/motion_mw.py`. Demo: `Meisterwerk_Motion_Bausteine.mp4` (23.11.2026 an Laurin). Gemini-Casting 23.11.: Karte und Blaupausen PREMIUM; Takt-Raster mit zufälligem Aufploppen CHEAP → jetzt Reihe für Reihe im Takt; Alarm-Zischen und laute Zähler-Ticks raus.
+**Erweiterung 23.11.2026 (ANOM-Stilprobe):** Die `motion`-Bausteine kommen **zusätzlich** (nichts wird ersetzt, die 3D-Werkhalle bleibt die Welt). Eigene Formen statt nur Farben (Laurin 23.11.): massive Industrie-Piktogramme, Stationen als Sechskant-Muttern, Raster aus Muttern/Schraubenköpfen, Laser-Gravur statt Tippen, Typenschilder, Glut-Orange. Doku: `engine/motion_mw.py`. Demo: `Meisterwerk_Motion_Bausteine.mp4` (23.11.2026 an Laurin). Gemini-Casting 23.11.: Karte und Blaupausen PREMIUM; Takt-Raster mit zufälligem Aufploppen CHEAP → jetzt Reihe für Reihe im Takt; Alarm-Zischen und laute Zähler-Ticks raus.
 
 **Raus:** Kamera-Klick als Sound bei Texteinblendungen (klingt billig), eingetippter Text mit Tastatur (gehört Goldsmith) und stehende Objekte, denn alles bewegt sich. Kein Querschnitt, der gehört Unterbau: Das Innere zeigt die Explosionsansicht.
 
