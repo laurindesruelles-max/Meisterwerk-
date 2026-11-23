@@ -37,6 +37,16 @@ Weitere freigegebene Animationsarten für die Nische und die Bild-Drehbuch-Regel
 | Match-Cut | Die Form springt ins nächste Motiv | Kapitelübergang | neu |
 | Zahnrad-Kapitelmarke | Das orange Zahnrad dreht sich ein, dahinter steht der Titel | Kapitelstart | neu, ersetzt `chapter_card` |
 
+| Laser-Karte (`motion` map) | Messpunkte setzen sich, Orange-Laserlinien verbinden Standorte, Orte werden graviert | Lieferkette, Werke, Baustelle im Land | neu, ANOM-Wissen 23.11. |
+| Fertigungsablauf 2D (`motion` flow) | Teil wandert über Stationen, Fortschrittsbalken, Abzweig „Ausschuss“ mit Schlag | Ablauf auf einen Blick (ergänzt die 3D-Fahrt durch die Fertigung) | neu, ANOM-Wissen 23.11. |
+| Typenschild dreht sich (`motion` flip) | Neugier-Pause, Schild dreht sich, Auflösung glüht orange | Auflösung des Rätsels | neu, ANOM-Wissen 23.11. |
+| Zahl auf Stahlplatte (`motion` counter) | Zahl zählt auf gebürsteter Platte hoch, dahinter fallen Teile | große Stückzahl | neu, ANOM-Wissen 23.11. |
+| Takt-Raster (`motion` grid) | Teile füllen Reihe für Reihe im Takt, Ausschuss glüht | Stückzahl, Takt | neu, ANOM-Wissen 23.11. |
+| Balken-Vergleich 2D (`motion` bars) | Stahl- gegen Glut-Balken | schneller Vergleich (ergänzt Stahlträger-Diagramm) | neu, ANOM-Wissen 23.11. |
+| Blaupausen-Stapel (`motion` stack) | Konstruktionszeichnungen stapeln sich, Frage wird graviert | Konstruktion, offene Frage | neu, ANOM-Wissen 23.11. |
+
+**Erweiterung 23.11.2026 (ANOM-Stilprobe):** Die `motion`-Bausteine kommen **zusätzlich** (nichts wird ersetzt, die 3D-Werkhalle bleibt die Welt). Laser-Gravur statt Tippen, Typenschilder, Glut-Orange. Doku: `engine/motion_mw.py`. Demo: `Meisterwerk_Motion_Bausteine.mp4` (23.11.2026 an Laurin). Gemini-Casting 23.11.: Karte und Blaupausen PREMIUM; Takt-Raster mit zufälligem Aufploppen CHEAP → jetzt Reihe für Reihe im Takt; Alarm-Zischen und laute Zähler-Ticks raus.
+
 **Raus:** Kamera-Klick als Sound bei Texteinblendungen (klingt billig), eingetippter Text mit Tastatur (gehört Goldsmith) und stehende Objekte, denn alles bewegt sich. Kein Querschnitt, der gehört Unterbau: Das Innere zeigt die Explosionsansicht.
 
 Stilprobe: `stilprobe_meisterwerk.mp4` (20.11.2026). Sounds folgen nach dem Casting (`doku-ohren`).

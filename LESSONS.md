@@ -98,3 +98,5 @@ Referenz: Wissenswert „Wie eine Spionin den größten CEO der Welt ruinierte�
 - Zweiter Faktencheck NACH dem Schnitt (nur Einblendungen) fand 8 Fehler, die im Sprechtext nicht vorkamen (z. B. „Ø 86,000“ täuscht Messwert vor, „12 t Druck“ statt Kraft, „−25 °C“ statt K). Einblendungen immer separat prüfen.
 - 3D-Szenen, die nicht funktionierten: Makro-Spalt (Licht durch 0,04-mm-Spalt unsichtbar) → als 2D-Makro ersetzt; Thumbnail-Kameras zu nah → Motiv ganz zeigen, Glut-Emission ≤ 1 (sonst Pfirsich-Ton in AgX).
 - Effektdichte landete bei ~8/Min (Ziel ~6): Szenen-Geräusche an sichtbarer Bewegung + Typenschild-Klicks summieren sich; Callouts ohne Ton, Bemaßung höchstens alle 30 s.
+
+- **2D-Motion-Graphics (23.11.2026):** Laurin will das Handwerk der ANOM-Stilprobe (viel 2D-Animation, Bildwechsel alle 2–4 s) in jedem Kanal – als Erweiterung im eigenen Stil, nichts überschreiben. Meisterwerk: `engine/motion_mw.py` (Laser-Gravur, Typenschild, Glut-Orange). Bisherige Regeln (3D-Werkhalle, echte Fakten mit Quelle, Schema-Hinweis) bleiben.

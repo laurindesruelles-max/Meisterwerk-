@@ -20,6 +20,9 @@ Zuerst immer `LESSONS.md` lesen – dort stehen Laurins feste Regeln.
 - `engine/assets.py` (Poly Haven, CC0): `A.texture("metal_plate")`, `A.model("metal_tool_chest", loc, rot_z, scale)`, `A.hdri("studio_kontrast_01")` für echtes Studio-Licht. Bewährte Slugs: `GOOD["meisterwerk_*"]`. Downloads von dl.polyhaven.org (freigegeben), Cache ~/.cache/polyhaven.
 - Bewusst NICHT übernommen (Goldsmith-Handschrift): Tilt-Shift, Staub, Earth Zoom, Polaroid-Zoom.
 
+## 2D-Motion-Graphics (seit 23.11.2026, Erweiterung aus der ANOM-Stilprobe)
+`engine/motion_mw.py` + `engine/motion/` (Remotion): Karte, Fertigungsablauf, Typenschild-Flip, Zahl auf Stahlplatte, Takt-Raster, Balken, Blaupausen-Stapel – im Meisterwerk-Look (Laser-Gravur, Typenschild, Glut-Orange). Ergänzt die 3D-Shots dort, wo eine schnelle Grafik mehr erklärt; ersetzt nichts. Einmalig `cd engine/motion && npm install`. API und Beispiele im Dateikopf von motion_mw.py.
+
 ## Ablauf für ein neues Video
 1. Thema wählen (vidIQ-Outliers), recherchieren, jede Zahl mit Quelle.
 2. Skript schreiben (Intro mit Hook + 4–6 Kapitel + Endkarte mit Kommentar-Frage und Glocke).
